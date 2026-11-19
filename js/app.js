@@ -105,24 +105,69 @@ setInterval(renderTicker, 60000);                                // keep "next u
 // ---------------------------------------------------------------- install prompt
 const isStandalone = () => window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
 const isIOS = () => /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+
+// Works out which browser this is and how to add the app to the home screen in it.
+const ICO = {
+  share: '<svg class="inline-ico" viewBox="0 0 24 24"><path d="M12 3v12M8 7l4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg>',
+  dots: '<b>⋯</b>', kebab: '<b>⋮</b>',
+};
+function installGuide() {
+  const ua = navigator.userAgent;
+  const inApp = /FBAN|FBAV|Instagram|WhatsApp|Line\/|LinkedInApp|Snapchat|Twitter|GSA\//i.test(ua);
+  if (isIOS()) {
+    if (inApp) return { name: 'an in-app browser', steps: [
+      `Tap ${ICO.dots} or the compass/browser icon and choose <b>Open in Safari</b>.`,
+      'Then tap <b>Install app</b> again on this card for the Safari steps.'] };
+    if (/CriOS/.test(ua)) return { name: 'Chrome on iPhone', steps: [
+      `Tap the <b>Share</b> icon ${ICO.share} in the address bar (top right).`,
+      'Scroll down and tap <b>Add to Home Screen</b>.', 'Tap <b>Add</b>.'] };
+    if (/FxiOS/.test(ua)) return { name: 'Firefox on iPhone', steps: [
+      'Tap the menu <b>☰</b> (bottom right).', `Tap <b>Share</b> ${ICO.share}.`,
+      'Tap <b>Add to Home Screen</b>, then <b>Add</b>.'] };
+    if (/EdgiOS/.test(ua)) return { name: 'Edge on iPhone', steps: [
+      `Tap the menu ${ICO.dots} (bottom).`, `Tap <b>Share</b> ${ICO.share}.`,
+      'Tap <b>Add to Home Screen</b>, then <b>Add</b>.'] };
+    return { name: 'Safari on iPhone', steps: [
+      `Tap the <b>Share</b> button ${ICO.share}. If you don't see it, tap ${ICO.dots} at the bottom right first, then <b>Share</b>.`,
+      'Scroll down and tap <b>Add to Home Screen</b> (tap <b>View More</b> if it isn\'t listed).',
+      'Keep <b>Open as Web App</b> on and tap <b>Add</b>.'] };
+  }
+  if (/Android/i.test(ua)) {
+    if (inApp) return { name: 'an in-app browser', steps: [
+      `Tap ${ICO.kebab} (top right) and choose <b>Open in Chrome</b>.`,
+      'Then tap <b>Install app</b> again on this card.'] };
+    if (/SamsungBrowser/.test(ua)) return { name: 'Samsung Internet', steps: [
+      'Tap the menu <b>☰</b> (bottom right).', 'Tap <b>Add page to</b> → <b>Home screen</b>.', 'Tap <b>Add</b>.'] };
+    if (/Firefox/.test(ua)) return { name: 'Firefox on Android', steps: [
+      `Tap the menu ${ICO.kebab}.`, 'Tap <b>Add app to Home screen</b> (or <b>Install</b>).', 'Tap <b>Add</b>.'] };
+    if (/EdgA/.test(ua)) return { name: 'Edge on Android', steps: [
+      'Tap the menu <b>☰</b> or ⋯ (bottom).', 'Tap <b>Add to phone</b> / <b>Add to Home screen</b>.', 'Tap <b>Install</b>.'] };
+    return { name: 'Chrome on Android', steps: [
+      `Tap the menu ${ICO.kebab} (top right).`, 'Tap <b>Add to Home screen</b> or <b>Install app</b>.', 'Tap <b>Install</b>.'] };
+  }
+  if (/Edg\//.test(ua)) return { name: 'Edge', steps: [
+    'Click the <b>App available</b> icon in the address bar, or menu ⋯ → <b>Apps</b> → <b>Install this site as an app</b>.', 'Click <b>Install</b>.'] };
+  if (/Chrome\//.test(ua)) return { name: 'Chrome', steps: [
+    'Click the <b>Install</b> icon at the right end of the address bar, or menu ⋮ → <b>Cast, save and share</b> → <b>Install page as app</b>.', 'Click <b>Install</b>.'] };
+  if (/Safari\//.test(ua) && /Macintosh/.test(ua)) return { name: 'Safari on Mac', steps: [
+    'In the menu bar choose <b>File</b> → <b>Add to Dock</b>.', 'Click <b>Add</b>.'] };
+  if (/Firefox/.test(ua)) return { name: 'Firefox', steps: [
+    'Firefox on computers can\'t install web apps.', 'Open this page in <b>Chrome</b>, <b>Edge</b> or <b>Safari</b> to install it.'] };
+  return { name: 'your browser', steps: ['Open the browser menu and look for <b>Add to Home screen</b> or <b>Install app</b>.'] };
+}
+const isMobile = () => isIOS() || /Android/i.test(navigator.userAgent);
+
 function installCard() {
   if (isStandalone() || store.get('installDismissed', false)) return '';
-  let how;
-  if (deferredPrompt) {
-    how = `<button class="btn accent" data-action="install">Install app</button>`;
-  } else if (isIOS()) {
-    how = `<ol class="small" style="margin:6px 0 0;padding-left:18px">
-      <li>Open this page in <b>Safari</b>.</li>
-      <li>Tap the <b>Share</b> button <svg class="inline-ico" viewBox="0 0 24 24"><path d="M12 3v12M8 7l4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg> at the bottom.</li>
-      <li>Scroll and tap <b>Add to Home Screen</b>, then <b>Add</b>.</li></ol>`;
-  } else {
-    how = `<ol class="small" style="margin:6px 0 0;padding-left:18px">
-      <li>Tap the browser menu <b>⋮</b> (top-right in Chrome).</li>
-      <li>Tap <b>Add to Home screen</b> or <b>Install app</b>, then <b>Install</b>.</li></ol>`;
-  }
-  return `<div class="card install-card"><div class="row"><b>📲 Add EnergyPulse to your home screen</b>
+  const g = installGuide();
+  return `<div class="card install-card"><div class="row"><b>📲 Get EnergyPulse on your ${isMobile() ? 'home screen' : 'computer'}</b>
     <button class="x" data-action="install-dismiss" aria-label="Dismiss">✕</button></div>
-    <p class="small muted" style="margin:4px 0 8px">Opens full screen like an app, with its own icon.</p>${how}</div>`;
+    <p class="small muted" style="margin:4px 0 10px">Opens full screen like an app, with its own icon.</p>
+    <button class="btn accent" data-action="install">Install app</button>
+    <div id="install-steps" class="install-steps" hidden>
+      <p class="small" style="margin:12px 0 4px">In <b>${esc(g.name)}</b>:</p>
+      <ol class="small">${g.steps.map((x) => `<li>${x}</li>`).join('')}</ol>
+    </div></div>`;
 }
 
 // ---------------------------------------------------------------- chart (SVG)
@@ -414,8 +459,10 @@ window.addEventListener('beforeinstallprompt', (e) => {
 window.addEventListener('appinstalled', () => { deferredPrompt = null; store.set('installDismissed', true); route(); });
 document.addEventListener('click', async (e) => {
   const t = e.target.closest('[data-action]'); if (!t) return;
-  if (t.dataset.action === 'install' && deferredPrompt) {
-    deferredPrompt.prompt(); await deferredPrompt.userChoice; deferredPrompt = null; route();
+  if (t.dataset.action === 'install') {
+    if (deferredPrompt) { deferredPrompt.prompt(); await deferredPrompt.userChoice; deferredPrompt = null; route(); return; }
+    const steps = document.getElementById('install-steps');     // no system pop-up here: show this browser's steps
+    if (steps) { steps.hidden = !steps.hidden; if (!steps.hidden) steps.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
   }
   if (t.dataset.action === 'install-dismiss') { store.set('installDismissed', true); t.closest('.install-card')?.remove(); }
 });
