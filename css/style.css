@@ -52,7 +52,7 @@ button { font: inherit; }
 
 /* ---------- top bar ---------- */
 .topbar {
-  position: sticky; top: 0; z-index: 10;
+  position: relative; z-index: 10;
   display: flex; align-items: center; justify-content: space-between;
   padding: calc(10px + env(safe-area-inset-top)) 16px 10px;
   background: var(--brand); color: #fff;
@@ -204,3 +204,29 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 }
 .tabbar svg { width: 23px; height: 23px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .tabbar a.on { color: var(--accent); }
+
+/* ---------- schedule note + install card ---------- */
+.schedule { display: flex; gap: 8px; align-items: flex-start; font-size: 12.5px; color: var(--muted); margin: -4px 2px 12px; }
+.schedule svg { width: 16px; height: 16px; flex: none; margin-top: 1px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+.install-card { border: 1px solid var(--accent); background: var(--accent-soft); margin-bottom: 14px; }
+.x { border: 0; background: none; color: var(--muted); font-size: 16px; cursor: pointer; padding: 2px 6px; }
+.inline-ico { width: 15px; height: 15px; vertical-align: -2px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+/* ---------- moving news strip ---------- */
+.sticky-head { position: sticky; top: 0; z-index: 10; }
+.ticker {
+  overflow: hidden; white-space: nowrap;
+  background: #13314f; color: #fff; font-size: 13px; font-weight: 600;
+  border-bottom: 2px solid var(--accent);
+}
+.ticker-track { display: inline-flex; animation: ticker 32s linear infinite; }
+.ticker:hover .ticker-track { animation-play-state: paused; }
+.ticker-seg { display: inline-flex; gap: 18px; padding: 7px 9px 7px 18px; }
+.ticker .dot { color: var(--accent); }
+@keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) {
+  .ticker { white-space: normal; }
+  .ticker-track { animation: none; }
+  .ticker-seg[aria-hidden] { display: none; }
+  .ticker-seg { flex-wrap: wrap; gap: 4px 12px; }
+}

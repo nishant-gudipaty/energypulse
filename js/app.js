@@ -13,6 +13,7 @@ const store = {
 };
 let mode = store.get('mode', 'live');            // 'live' | 'demo'
 const cache = {};                                 // per-mode in-memory cache
+let deferredPrompt = null;                        // Android install prompt, when Chrome offers one
 
 async function load(name) {
   const key = mode + '/' + name;
@@ -72,6 +73,56 @@ function recentHistory(obj, days = 120) {
   const h = obj?.history || []; if (!h.length) return [];
   const cutoff = new Date(h.at(-1).date) - days * 864e5;
   return h.filter((p) => new Date(p.date) >= cutoff);
+}
+
+// Automatic update schedule (keep in sync with the cron lines in .github/workflows/update-and-deploy.yml)
+const UPDATE_SLOTS_IST = [[8, 0], [16, 0]];
+const slotLabel = ([h, m]) => `${((h + 11) % 12) + 1}:${String(m).padStart(2, '0')} ${h < 12 ? 'AM' : 'PM'}`;
+const SCHEDULE_TEXT = `Updates automatically every day at ${UPDATE_SLOTS_IST.map(slotLabel).join(' and ')} IST`;
+function nextUpdateLabel() {
+  const ist = new Date(Date.now() + 5.5 * 3600e3);              // IST clock read via UTC getters
+  const mins = ist.getUTCHours() * 60 + ist.getUTCMinutes();
+  const next = UPDATE_SLOTS_IST.find(([h, m]) => h * 60 + m > mins);
+  return next ? `today ${slotLabel(next)}` : `tomorrow ${slotLabel(UPDATE_SLOTS_IST[0])}`;
+}
+function scheduleNote(meta) {
+  const last = mode === 'live' && meta?.generated_at_ist ? `Last updated <b>${esc(meta.generated_at_ist.replace(' IST', ''))}</b> · ` : '';
+  return `<div class="schedule"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+    <span>${last}${SCHEDULE_TEXT}. Next update ${nextUpdateLabel()} (may run a few minutes late).</span></div>`;
+}
+
+async function renderTicker() {
+  const el = document.getElementById('ticker'); if (!el) return;
+  const meta = await load('meta');
+  const parts = [`⏱ Next update ${nextUpdateLabel()} IST`, `🔄 ${SCHEDULE_TEXT}`];
+  if (mode === 'live' && meta.generated_at_ist) parts.push(`✓ Last updated ${meta.generated_at_ist}`);
+  if (mode === 'demo') parts.unshift('⚠ DEMO DATA — not real prices');
+  const seg = parts.map((p) => `<span>${esc(p)}</span>`).join('<span class="dot">•</span>');
+  el.innerHTML = `<div class="ticker-seg">${seg}<span class="dot">•</span></div><div class="ticker-seg" aria-hidden="true">${seg}<span class="dot">•</span></div>`;
+}
+setInterval(renderTicker, 60000);                                // keep "next update" current
+
+// ---------------------------------------------------------------- install prompt
+const isStandalone = () => window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+const isIOS = () => /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+function installCard() {
+  if (isStandalone() || store.get('installDismissed', false)) return '';
+  let how;
+  if (deferredPrompt) {
+    how = `<button class="btn accent" data-action="install">Install app</button>`;
+  } else if (isIOS()) {
+    how = `<ol class="small" style="margin:6px 0 0;padding-left:18px">
+      <li>Open this page in <b>Safari</b>.</li>
+      <li>Tap the <b>Share</b> button <svg class="inline-ico" viewBox="0 0 24 24"><path d="M12 3v12M8 7l4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg> at the bottom.</li>
+      <li>Scroll and tap <b>Add to Home Screen</b>, then <b>Add</b>.</li></ol>`;
+  } else {
+    how = `<ol class="small" style="margin:6px 0 0;padding-left:18px">
+      <li>Tap the browser menu <b>⋮</b> (top-right in Chrome).</li>
+      <li>Tap <b>Add to Home screen</b> or <b>Install app</b>, then <b>Install</b>.</li></ol>`;
+  }
+  return `<div class="card install-card"><div class="row"><b>📲 Add EnergyPulse to your home screen</b>
+    <button class="x" data-action="install-dismiss" aria-label="Dismiss">✕</button></div>
+    <p class="small muted" style="margin:4px 0 8px">Opens full screen like an app, with its own icon.</p>${how}</div>`;
 }
 
 // ---------------------------------------------------------------- chart (SVG)
@@ -146,6 +197,7 @@ async function viewHome() {
   const top = items.slice(0, 5);
 
   return `
+    ${installCard()}
     <h1>Today</h1>
     <div class="card hero">${hero}</div>
     <div class="section-title">Benchmarks</div>
@@ -155,7 +207,7 @@ async function viewHome() {
     </div>
     <div class="section-title">Latest headlines</div>
     ${news.items ? newsList(top) : unavailable(news, 'News')}
-    <p class="disclaimer">${mode === 'live' && meta.generated_at_ist ? `Data refreshed ${esc(meta.generated_at_ist)}.` : ''} Prices are indicative and for information only.</p>`;
+    <p class="disclaimer">Prices are indicative and for information only.</p>`;
 }
 
 function basketChart(basket) {
@@ -296,7 +348,7 @@ async function viewAbout() {
         <button data-mode="live" class="${mode === 'live' ? 'on' : ''}">Live</button>
         <button data-mode="demo" class="${mode === 'demo' ? 'on' : ''}">Demo</button></div></div>
       <p class="small muted">Live shows only real, attributed data refreshed by the daily robot. Demo shows made-up numbers for trying the app and is always marked with an orange banner.</p>
-      ${meta.generated_at_ist ? `<p class="small">Last refresh: <b>${esc(meta.generated_at_ist)}</b></p>` : ''}
+      ${scheduleNote(meta)}
     </div>
     <div class="section-title">Feeds</div>
     <div class="card"><table><tr><th>Feed</th><th>Status</th></tr>
@@ -305,6 +357,7 @@ async function viewAbout() {
     </table></div>
     <div class="section-title">Install on your phone</div>
     <div class="card small">
+      ${isStandalone() ? '<p style="margin-top:0">✓ Installed — you are using the home-screen app.</p>' : ''}
       <p style="margin-top:0"><b>Android (Chrome):</b> tap ⋮ → <i>Add to Home screen</i> / <i>Install app</i>.</p>
       <p><b>iPhone (Safari):</b> tap Share <span aria-hidden="true">⎋</span> → <i>Add to Home Screen</i>.</p>
       <button class="btn accent" id="install-btn" hidden>Install EnergyPulse</button>
@@ -319,6 +372,7 @@ async function route() {
   const name = VIEWS[path] ? path : 'home';
   document.querySelectorAll('.tabbar a').forEach((a) => a.classList.toggle('on', a.dataset.tab === name));
   renderMode();
+  renderTicker();
   if (name === 'impact') { const b = await load('basket'); basketPrice = b.latest?.usd ?? null; }
   $view.innerHTML = await VIEWS[name](new URLSearchParams(qs || ''));
   if (name === 'impact') wireCalc();
@@ -353,8 +407,18 @@ document.addEventListener('visibilitychange', () => {
 });
 
 // ---------------------------------------------------------------- install + service worker
-let deferredPrompt = null;
-window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); deferredPrompt = e; wireInstall(); });
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault(); deferredPrompt = e; wireInstall();
+  if ((location.hash || '#/home').startsWith('#/home')) route();
+});
+window.addEventListener('appinstalled', () => { deferredPrompt = null; store.set('installDismissed', true); route(); });
+document.addEventListener('click', async (e) => {
+  const t = e.target.closest('[data-action]'); if (!t) return;
+  if (t.dataset.action === 'install' && deferredPrompt) {
+    deferredPrompt.prompt(); await deferredPrompt.userChoice; deferredPrompt = null; route();
+  }
+  if (t.dataset.action === 'install-dismiss') { store.set('installDismissed', true); t.closest('.install-card')?.remove(); }
+});
 function wireInstall() {
   const b = document.getElementById('install-btn'); if (!b || !deferredPrompt) return;
   b.hidden = false;
