@@ -1,0 +1,82 @@
+{
+ "mode": "demo",
+ "status": "demo",
+ "checked_at": "2026-11-19T02:00:00Z",
+ "categories": {
+  "india": "India",
+  "global": "Global",
+  "ppac": "PPAC",
+  "cht": "CHT",
+  "safety": "Safety incident"
+ },
+ "items": [
+  {
+   "id": "d0",
+   "title": "[DEMO] Sample headline: refiners raise crude runs ahead of winter demand",
+   "link": "#/news",
+   "source": "Demo feed",
+   "published": "2026-11-19T00:00:00Z",
+   "category": "india"
+  },
+  {
+   "id": "d1",
+   "title": "[DEMO] Sample PPAC notice: Indian Basket price published for the day",
+   "link": "#/news",
+   "source": "Demo feed",
+   "published": "2026-11-18T19:00:00Z",
+   "category": "ppac"
+  },
+  {
+   "id": "d2",
+   "title": "[DEMO] Sample incident: small fire at a hypothetical refinery unit, no injuries",
+   "link": "#/news",
+   "source": "Demo feed",
+   "published": "2026-11-18T14:00:00Z",
+   "category": "safety"
+  },
+  {
+   "id": "d3",
+   "title": "[DEMO] Sample headline: producer group holds output steady",
+   "link": "#/news",
+   "source": "Demo feed",
+   "published": "2026-11-18T09:00:00Z",
+   "category": "global"
+  },
+  {
+   "id": "d4",
+   "title": "[DEMO] Sample CHT update: energy-efficiency workshop for refineries",
+   "link": "#/news",
+   "source": "Demo feed",
+   "published": "2026-11-18T04:00:00Z",
+   "category": "cht"
+  },
+  {
+   "id": "d5",
+   "title": "[DEMO] Sample headline: city gas network expansion announced",
+   "link": "#/news",
+   "source": "Demo feed",
+   "published": "2026-11-17T23:00:00Z",
+   "category": "india"
+  },
+  {
+   "id": "d6",
+   "title": "[DEMO] Sample incident: hydrocarbon leak contained at hypothetical cracker unit",
+   "link": "#/news",
+   "source": "Demo feed",
+   "published": "2026-11-17T18:00:00Z",
+   "category": "safety"
+  },
+  {
+   "id": "d7",
+   "title": "[DEMO] Sample headline: LNG spot prices ease on mild weather",
+   "link": "#/news",
+   "source": "Demo feed",
+   "published": "2026-11-17T13:00:00Z",
+   "category": "global"
+  }
+ ],
+ "source": {
+  "name": "Illustrative demo data (not real prices)",
+  "note": "All headlines on this page are invented for demonstration."
+ }
+}

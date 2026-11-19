@@ -1,0 +1,98 @@
+{
+  "mode": "live",
+  "status": "ok",
+  "checked_at": null,
+  "unit": "USD/bbl",
+  "latest": {
+    "date": "2026-11-18",
+    "usd": 90.2
+  },
+  "previous": null,
+  "history": [
+    {
+      "date": "2026-11-18",
+      "usd": 90.2
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2026-04",
+      "usd": 114.48
+    },
+    {
+      "month": "2026-05",
+      "usd": 106.23
+    },
+    {
+      "month": "2026-06",
+      "usd": 83.22
+    },
+    {
+      "month": "2026-07",
+      "usd": 82.04
+    },
+    {
+      "month": "2026-08",
+      "usd": 90.19
+    },
+    {
+      "month": "2026-09",
+      "usd": 116.09
+    },
+    {
+      "month": "2026-10",
+      "usd": 119.91
+    },
+    {
+      "month": "2026-11",
+      "usd": 94.96
+    }
+  ],
+  "composition": {
+    "ratios": [
+      {
+        "month": "2026-04",
+        "ratio": "61.02 : 38.98"
+      },
+      {
+        "month": "2026-05",
+        "ratio": "70.00 : 30.00"
+      },
+      {
+        "month": "2026-06",
+        "ratio": "71.02 : 28.98"
+      },
+      {
+        "month": "2026-07",
+        "ratio": "79.40 : 20.60"
+      },
+      {
+        "month": "2026-08",
+        "ratio": "74.94 : 25.06"
+      },
+      {
+        "month": "2026-09",
+        "ratio": "77.81 : 22.19"
+      },
+      {
+        "month": "2026-10",
+        "ratio": "65.27 : 34.73"
+      },
+      {
+        "month": "2026-11",
+        "ratio": "53.49 : 46.51"
+      }
+    ],
+    "explanation": "The Indian Basket is a weighted mix of sour grade (Oman & Dubai average) and sweet grade (Brent Dated) crude, based on what Indian refineries imported. Ratios are copied as published by PPAC; check the PPAC ICB Ratio notice for which grade each number refers to.",
+    "source": {
+      "name": "PPAC - International Prices of Crude Oil (Indian Basket)",
+      "url": "https://ppac.gov.in/prices/international-prices-of-crude-oil"
+    },
+    "updated": "2026-11-19"
+  },
+  "source": {
+    "name": "Petroleum Planning & Analysis Cell (PPAC), MoPNG",
+    "url": "https://ppac.gov.in/prices/international-prices-of-crude-oil"
+  },
+  "note": "Daily values come from PPAC. If the robot cannot read PPAC, add a row to data/indian_basket_daily.csv on GitHub and the site updates within minutes."
+}

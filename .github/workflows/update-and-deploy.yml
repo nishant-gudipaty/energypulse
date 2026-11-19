@@ -1,0 +1,64 @@
+name: Update data & deploy site
+
+on:
+  schedule:
+    # Twice a day: 08:00 IST and 16:00 IST (GitHub cron uses UTC and can run a little late)
+    - cron: "30 2 * * *"
+    - cron: "30 10 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch: {}       # adds a "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write    # lets the robot commit the new data files
+  pages: write       # lets it publish to GitHub Pages
+  id-token: write
+
+concurrency:
+  group: energypulse
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch today's data
+        env:
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}   # optional; enables Brent & WTI
+        run: python scripts/update_data.py
+
+      - name: Save data back to the repo
+        run: |
+          git config user.name "energypulse-bot"
+          git config user.email "energypulse-bot@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "Data update $(TZ=Asia/Kolkata date +'%d %b %Y %H:%M IST')"
+            git pull --rebase --autostash origin main
+            git push
+          fi
+
+      - name: Prepare site
+        uses: actions/configure-pages@v5
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Publish to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

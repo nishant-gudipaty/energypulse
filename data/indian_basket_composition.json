@@ -1,0 +1,15 @@
+{
+  "ratios": [
+    {"month": "2026-04", "ratio": "61.02 : 38.98"},
+    {"month": "2026-05", "ratio": "70.00 : 30.00"},
+    {"month": "2026-06", "ratio": "71.02 : 28.98"},
+    {"month": "2026-07", "ratio": "79.40 : 20.60"},
+    {"month": "2026-08", "ratio": "74.94 : 25.06"},
+    {"month": "2026-09", "ratio": "77.81 : 22.19"},
+    {"month": "2026-10", "ratio": "65.27 : 34.73"},
+    {"month": "2026-11", "ratio": "53.49 : 46.51"}
+  ],
+  "explanation": "The Indian Basket is a weighted mix of sour grade (Oman & Dubai average) and sweet grade (Brent Dated) crude, based on what Indian refineries imported. Ratios are copied as published by PPAC; check the PPAC ICB Ratio notice for which grade each number refers to.",
+  "source": {"name": "PPAC - International Prices of Crude Oil (Indian Basket)", "url": "https://ppac.gov.in/prices/international-prices-of-crude-oil"},
+  "updated": "2026-11-19"
+}
