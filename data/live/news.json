@@ -1,7 +1,7 @@
 {
   "mode": "live",
   "status": "ok",
-  "checked_at": "2026-11-19T19:20:02Z",
+  "checked_at": "2026-11-19T19:20:47Z",
   "categories": {
     "india": "India",
     "global": "Global",
@@ -17,6 +17,14 @@
       "source": "FXEmpire",
       "published": "2026-11-19T19:07:53Z",
       "category": "global"
+    },
+    {
+      "id": "e774e561387e",
+      "title": "India had 60 days of oil, gas supplies during Hormuz crisis: Hardeep Puri",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPREE3THppQ0tQNzhPTm1PLVQ4RG9HX3JiYTRISllQeXAyWFdZVlZTUmNYbHJGWnVCbF9wWTVTOVN3UllzYUF1SFpRenNTZlB1akRueFpXZ3BOYWhuTWRfeEg5c1NVSXcxdXh2cXQ3cV9hSkZEdmFEQUFOR0dTaXZhSlVKMHV4ZHVURFBiRnRzSmwtMENZcGZaU1RQV2JhTmFJWGZfQVZLLTk5MnVUR1VKeHFxOHlDY05B0gG-AUFVX3lxTE9lLVV1WjZQbDVHdHdETUdCWDBCX2ZCUm5YRVFtSFRmekd1X0lRVGRtdFZtekZtZlhKVWQ3M3RPTFpSWXBqYTd5a3lPQy1LdXQ1MW1Od0RkckpzZ01YTm9pLXA5SVA0VTR4cnFkMVVCRE5rQ1M5cVVPT0U4R1Ztajg2Vi02VjRQaDR1MjEtZ3I1cDFGcDhLUmFUNmJFUmM4OW1kYm5ZZFZhRmZvbHFvQWJVYjNpVG9VMkQyczJ5ZUE?oc=5",
+      "source": "MillenniumPost",
+      "published": "2026-11-19T19:07:38Z",
+      "category": "india"
     },
     {
       "id": "f5ce680d2196",
@@ -91,20 +99,20 @@
       "category": "india"
     },
     {
+      "id": "fcd710df7f50",
+      "title": "Crude Oil Prices Edge Higher on Fears of Escalation in US-Iran Conflict",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOakVQNFFWQWc4WldBSkN0LThtZkZvejcxRDBIb3U5bGoycEJUYWNaRDJPbXlNbVdudUVZX1drX0xmSzVsOGpPWGdWbi1lMk1CV1U0S2tOYkFIZVhleU0xa0dIeWJ6aW42Zlk0X29WNU1sdXBvWF9rQkVUcllJVVF4dUtNd1JUUHpDakh1S0lvVFgzN2xZUnFUdmVRZFlxRnloZ0JXZFJmbi1NUk0zV25iWF9JamNGdw?oc=5",
+      "source": "Barchart.com",
+      "published": "2026-11-19T16:38:30Z",
+      "category": "global"
+    },
+    {
       "id": "5caa541f748d",
       "title": "OPEC share in India’s crude imports drops to 27.4% in Apr-Oct amid West Asia flare-ups",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNTkNXM0U2dkNVQmtqeTRZR2k4MVN0dnpRMmZBUkFzdHVGcy1FQmwtSEg2M2hvU0NkYk41Y0RSUl9WZnBjNzVueTZqaW5UbXVPcGljN2tXVlZCNXhBaEp2WUFscnJHWmpzU0pyYzE4R0ZYeWhPaG1ubV9sRWV3SmFtRElaTWtMcHI5Ul9RMTJnT0F2bDRqOWhCREQzV0tVbzY4cUE2YUg5TlZHamE1UnBKQUJVQ1lxSzJxaDFwWTgydWJHSWZ5ejlNMTZ5V1FDTlMyaFVUa21LQ3dfNmllS3ZVRkpsODDSAeQBQVVfeXFMTU5DVzNFNnZDVUJrank0WUdpODFTdHZ6UTJmQVJBc3R1RnMtRUJsLUhINjNob1NDZGJONWNEUlJfVmZwYzc1bnk2amluVG11T3BpYzdrV1ZWQjV4QWhKdllBbHJyR1pqc1NKcmMxOEdGWHloT2htbm1fbEVld0phbURJWk1rTHByOVJfUTEyZ09Bdmw0ajloQkREM1dLVW82OHFBNmFIOU5WR2phNVJwSkFCVUNZcUsycWgxcFk4MnViR0lmeXo5TTE2eVdRQ05TMmhVVGttS0N3XzZpZUt2VUZKbDgw?oc=5",
       "source": "The Hindu",
       "published": "2026-11-19T15:30:52Z",
       "category": "ppac"
-    },
-    {
-      "id": "8724003b448b",
-      "title": "India’s LPG stocks fell to 25 days of supply during Hormuz crisis, says Hardeep Singh Puri",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZVlKWENwOXp2VDVGT0dLWHRBMGJBTTFoTjBFdEFnSDNaWEhxOExnRTlWWW9Ra3g4aFdQdjdNVVRMLUhoQWlUQURmdjRKeFFJZG9FeUV4Snc2N3NTZHp0UXdyRExzeXA5dU1HWkpXZzA5NEZNQURNODhQM3p6WnUtLXU1clNydU1YbjJQTnZSc1BWU3FJSXBySjdaT3FjblFXOElwcUR2WW45dkk1b3FicjNOZVV0UVZ5b0F2MlRNTldBU2QwVklfeTB3LVZHUDhlOTVET2RteE95cms?oc=5",
-      "source": "ANI News",
-      "published": "2026-11-19T15:23:00Z",
-      "category": "india"
     },
     {
       "id": "5c92a64a14c9",
@@ -155,14 +163,6 @@
       "category": "global"
     },
     {
-      "id": "53ed6aaadb6b",
-      "title": "India Inc Sales and Profits Grew by Double Digits in Q2",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcklQLV9xek14bnphbmZLYnZ1LV82eThaZkgwNU5HVlJzWUdqMFd4OWxqUEkxYW5oWU1IV3E2UF9DdHRyQ0RxWWFMWUlacUVnWW9fVFotVFN0ZEt5ejRReXIwTGkya2wtYUdBQTFOLXkzTlZUYXRRdWdxWmFnbjY1bVZjZDFDMjZIeGxqNlZKZWw4VkpxMm13VUdZOGlSNTlIbmgxOEk4NmpJUU5M0gGsAUFVX3lxTE1ySVAtX3F6TXhuemFuZktidnUtXzZ5OFpmSDA1TkdWUnNZR2owV3g5bGpQSTFhbmhZTUhXcTZQX0N0dHJDRHFZYUxZSVpxRWdZb19UWi1UU3RkS3l6NFF5cjBMaTJrbC1hR0FBMU4teTNOVlRhdFF1Z3FaYWduNjVtVmNkMUMyNkh4bGo2VkplbDhWSnEybXdVR1k4aVI1OUhuaDE4STg2aklRTkw?oc=5",
-      "source": "Deccan Chronicle",
-      "published": "2026-11-19T13:45:58Z",
-      "category": "india"
-    },
-    {
       "id": "f1a6347ce6f8",
       "title": "Crude Oil Forecast: WTI Struggles as US Inventories Rise",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORmxHbjBVakxzRjFfak1CU1ZoYWRQbzE2dUxxczR2UDU0TjRFVlROMXZxN0lvcDFLVnZFYnpPeHJFUXZiazE0emYwdFloSzRUaDJ1U2hqTEhDaHpMWUttTkx0c1I4VW9KX1pYc0RBOXEtblM1NGlSc1MwN1otTE1BbHhfbzRlN1JEN0pDbkt3bldsTmxjUXA2S01qNVBiT0VTX0dFVVBCN0dqZw?oc=5",
@@ -203,35 +203,11 @@
       "category": "india"
     },
     {
-      "id": "7d92f4dea209",
-      "title": "India’s biogas push could trim LNG import bill, but execution gaps remain",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPa0d3MWJOaDF0aTVpUUxGR2U4WWZZV1dJT2psbnpOUV9wQkZjM2FaUWo2RmVQVllOWW5qQ0VXRk5Ub21EeFo5VXlsdVpyeTJMX1lrZ0lPSGlmcFZVOEJQM2pxS0xyY0F1TmN5d2VGZGhlXzBvWlJqSTI5c0xnaFpOampIeF8xYmlHc1QwMzVnWERZMlk4MUJsQWNmaUE2OWRHRThMR0hRN2FtNFVUWFdNNlAyZ1dQdnQ0UzJySlpTNllkTklGWVZDVHFyMTUtWktlWklKWGNsMzFRdTdYb0x4dmxDSVpSRUMzOHowYW1Yc2wzZw?oc=5",
-      "source": "climate.economictimes.indiatimes.com",
-      "published": "2026-11-19T11:53:20Z",
-      "category": "india"
-    },
-    {
-      "id": "878e835311f2",
-      "title": "India had 60 days of oil, gas supplies during Hormuz crisis, ramped up LPG output by 57%: Puri",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPaFoyX0dRYUx4MWRrNkhYbVNZeVROWksyT2xHZU9wMV84RVBRRzcwVUxXMnNPY3EtOEU1SHpacjVwaGtQSEdEYTZzaG42eEJwNnpoOFUyeFVRSHRrZnp3VVlFd0JvWDVydXM5QkFZMk5RUkNZbkxKMi1kWlNaeDR5QW01RHhINU5xbXBBYlpVNmxnYjB3TG9sM0Z4RERrVXlDZE1GZFp3QThmZnFyODR2OUx2MWk1cmU4aGs2UjdCNGdNeEZiNUdoLWlPWdIBywFBVV95cUxPaFoyX0dRYUx4MWRrNkhYbVNZeVROWksyT2xHZU9wMV84RVBRRzcwVUxXMnNPY3EtOEU1SHpacjVwaGtQSEdEYTZzaG42eEJwNnpoOFUyeFVRSHRrZnp3VVlFd0JvWDVydXM5QkFZMk5RUkNZbkxKMi1kWlNaeDR5QW01RHhINU5xbXBBYlpVNmxnYjB3TG9sM0Z4RERrVXlDZE1GZFp3QThmZnFyODR2OUx2MWk1cmU4aGs2UjdCNGdNeEZiNUdoLWlPWQ?oc=5",
-      "source": "ThePrint",
-      "published": "2026-11-19T11:48:21Z",
-      "category": "india"
-    },
-    {
       "id": "3e1e328a8e90",
       "title": "Lower Crude Oil Prices Could Boost India's Growth and Ease Inflation in FY28: CEA",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNDQ5ZHNmYk1KekprY3hRanJRUEExTll0UzJmQUp1R3JFVi1BR0ZBOWZVUXRrWjhTLUVVY0ZpNlVmSElicFc3Zzh4dHZnM2FxcXVZejJKcko0RHoxbGpWQjBCbUZMTlVPWUJjSjZNVW1INmlsTmluVEc2UVhrNTZ1eEU0UmhhNWNvQUxhMXF0Tk13MXRBMjNVdnVrb1htVWVuUDN5ci1Dakd6eGxoM0hEQ2VGLTBWd3VrSVYtODZyWXFzaDl0NkE?oc=5",
       "source": "KNN India",
       "published": "2026-11-19T11:41:17Z",
-      "category": "india"
-    },
-    {
-      "id": "5510f8eef9ee",
-      "title": "Indian Oil Corporation rises 2.77% in Thursday's session",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZmlja1ktbDV6aXVZNG8xamFWTkpBU3NUSkdsTFhjUExILTRJbWZoRDBkOVZZR0YxLXlzS2d0UjYyLXE5Sll0ZXA0R0M1MFdCdzRrdjM3Nm5MMU8yQm92WDBhMFQ3Z25jaTI4eUVIemU1am5SdkJEOTBFUWt6bC1SSHdHbGVtZGRDUHBCaDdKVGE?oc=5",
-      "source": "Global Banking & Finance Review",
-      "published": "2026-11-19T11:15:47Z",
       "category": "india"
     },
     {
@@ -256,6 +232,14 @@
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa0Q0UFo3ckc5VVBfdTNTOEpQS0IwaVAwVFl4X21Nb2x3XzNpOUd1bzYzdk9MdUt3cjRMR041Qjlkd01TVUstQnpVa0U2MWZ3WjV4VWxBdTNUSlM4a25qWmsxOGxCbkNCMGI4bDhVNzJycXQtLXdVYWdITXZyRF9KbWM1MzJxLURzaXU3ZkI1TExkdGdvUlVhSTNjSVNoZ0tNN1pIUHk3MW5ZTVI2MVlURmxRZWZ4UdIBuwFBVV95cUxQZFhsT3p3Wk51Ykt5QzNWcG1rRUlHLVp6bkkwOE5tbVpTb0dELXBEZmlXcmZPZ3dfT2VvQU5KTktWeEtabEpmZTBuREFxTHpHSGU0enVrem5mc3VNNTlXcnNvNjRmZEFsVzRoR1FrclpGaUl4S2IyNmxvanBMWlFTeVRMamVUcElMbnlNcGszdnlNZ3RQUUdSbTc1eGZDMmQwM0pJd1c2ZVp3bHM2Slo5NExwMUdIeTBBZldV?oc=5",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "published": "2026-11-19T10:30:00Z",
+      "category": "india"
+    },
+    {
+      "id": "b90f702004cf",
+      "title": "Indian Oil Corporation Limited (IOC.NS) Stock Price, News, Quote & History",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9DckJxMGRUQzF1LXhGWGhUbmIxenVQRTZNY0VaY1BVemxndVV1Z0ptTmVTaGFBb3RhQUV6MW9oUWNsamx5cVFzZWNJSlZkczJIY3padA?oc=5",
+      "source": "Yahoo! Finance Canada",
+      "published": "2026-11-19T10:24:46Z",
       "category": "india"
     },
     {
@@ -296,6 +280,14 @@
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUEp5UXU3ZUZhaDd0Y2VORzFTLThZVURlUWd0Z0dOdGxSNkxXVk1iS0R3SVZPeVJiOEJjNTZwY2d5U0V1aUtqUFlOcDg0TFNFeGZJYXBHT1lIRExwMkhpbEs4S1ZQYm9FQ2hrZ0Nka3UwTk0yU3JPT1lsZE5qNWd4eFJkQVNKSmtqZHA0SmZ4ZWVEdHdqck1qZ1dGODIwSDZELWgwTVZTTmZjdw?oc=5",
       "source": "Egypt Oil & Gas",
       "published": "2026-11-19T10:10:26Z",
+      "category": "india"
+    },
+    {
+      "id": "0c3d86d4853e",
+      "title": "India Relaxes Age Limits on Ships as Freight Markets Tighten",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdWYyYWU2eTE0WEpkQVVuaDBPUVlyazZJeW9jZW94bUJ5U0VjN1lLMDFWa0lCblVGZ2lwZFhMNDRKdXlMTnpxZzcyV285VkxHd2YtMTJBb291MjN5SzNYWVdiaWQ2a004NDRTYS1FZGJHRWpqRUxMbzh5SW92STJpVkhwMXdGZWM1VGxCMGRFWE1jYzZwbVVVbTBzTW5XNWZmeDlORFNrYmdLTHRGbk1PUw?oc=5",
+      "source": "Bloomberg.com",
+      "published": "2026-11-19T09:45:54Z",
       "category": "india"
     },
     {
@@ -384,6 +376,30 @@
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT3p0T3dady03aWZoN3l1RUZ5UkhyWE9lRUYtSEZmT0cxb21kempBRDhSQUljNzFlU0U5cjd0dnBWb2lMR0hGVk9KQlJoU3c2a01TU1BQYlJWbU1JS2l3NkRtVXJLNnFndWtac1hpZGQxVE5tQU8wLUVoNk9MRUxMdWJqdzA1TVdFX2pSZWJMb05aQW52bm9USUhXSDFMWTQxNHNuNjJnLWlMNlFRVjJqaVZDNW9QalpJWm5zTkpmR21rT1dXc0E?oc=5",
       "source": "Construction World",
       "published": "2026-11-19T07:45:02Z",
+      "category": "india"
+    },
+    {
+      "id": "b9a14f43a303",
+      "title": "‘Unacceptable’: India condemns attack on UAE’s Fujairah oil hub, calls for immediate halt to hostilities",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaWlqbUxFSXlBT1k2VllBdDVsUktuTV9tVlpRbUMxRTFzcDM0WE1oOGgyQUlrQ3Atb1ZsSVZnaHVhUm1rOTREVkpuMTJCNXYtR3ZfTTlEUF92NmlFU21zcGg1R2RVZ21fU2FLbF9WdWVNWG9UR2NpWUwzTlYzMU1MbE5JcTVGa2czV3BUQVQtUks1V29ZaloxTUVvalBrTFpOcFRxdVoyOWU2SGg2ZlNidXBPRVZwUnlwRzA4QnhUcnZHSVk?oc=5",
+      "source": "DD News",
+      "published": "2026-11-19T07:33:56Z",
+      "category": "india"
+    },
+    {
+      "id": "0cae16c88126",
+      "title": "Indian Rupee: Recovery supported by Oil and inflows – OCBC",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ1Z5Uk1yRHdJblBjNHgzeUpTYWt0YkI3bzdlZzJIQThUaVoxY3pHUlVjMjk2akxELWQ1R3pQMXFMd1E1NFpWejM4aDB0U2d4Y1J2a1lZcFRZeC01ZkZ2cVF1MjAtR0IyMmNDekxYcWpWY253MWtBNjhDai1GdlN6Wi1pNEt2NUM2MnRRS19ObUFqZUQ3Z290eEtrOTlJM3c?oc=5",
+      "source": "FXStreet",
+      "published": "2026-11-19T06:57:01Z",
+      "category": "india"
+    },
+    {
+      "id": "e8faef22a4ec",
+      "title": "Oil India's Q2 net profit stands at 2,259 cr",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZm0yOVJwOEx6TGZjakR2ZVJfUkJQc2w2MmpKUW9lSnhKRXRxaG5rQmY2Tnl1el9KOG9UMExjLU1hZXA2dmpPZGd4X1A4aTdnSzdsMTg1RFROZkhiWlZ3TE4tUFNZc3VOVmlXa19Kd1lFdGhCLXdwMUtsVVYydUtEU3NGMmQ0ZGN6TFo3aGdPZw?oc=5",
+      "source": "whispersinthecorridors.net",
+      "published": "2026-11-19T06:49:40Z",
       "category": "india"
     },
     {
@@ -507,19 +523,19 @@
       "category": "safety"
     },
     {
+      "id": "2f58d2dbc667",
+      "title": "ONGC Share Price",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BZndBbkF4cmU5QWRoemVsNXU2dlh6bW5yZXd6bTYyUkNFVUdTWUs1ZkV0ekhaUzl1dlpqRi1PZWlXY0VmNnV5eFUyVDlXWEFNSGNXR256NjVCZ3Zlakt5c2RVTzVBS2RfZE9Sa1Z5SC0?oc=5",
+      "source": "Upstox",
+      "published": "2026-11-17T18:45:46Z",
+      "category": "india"
+    },
+    {
       "id": "e3b3c37014b1",
       "title": "BPCL plans to raise ₹9,000 crore through bond sale after nearly four years",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRENsNmRIaENHQ3k5RlRVazliZVNYd3RmRU5yY2lEQ2FXNDJEMWtrR0ZtUkZLUzZ3bWNpWGx3QmVOZDJXWi0wNTRudFZwWlJVYlJGX2VBU2ctbEY5QVJ2ZjlrVEhsbTdXZXZMMGtRMmx4bG5NdlJnY25ZQXpsZTNESk1MWjdpMWItNmo0R2dIZmlURWtXdlpmei1PWkpwakZ6SkVHX2s2RzdvX2FObFJ4MUZwMFpNV21GVk1pWHdBSGJ6QUhT0gHLAUFVX3lxTFBMVWNNcGQ3TlA0SzkyR3F2RzZVamdpWFVlWFQza2lQZ3c5V2ZRSGlKWDJ3SXpjNER6VFl4RE9iaWZSNFJFYnNCRzU2bGVYSlhZZG8wMW9zelYxdUVYOWlBVVhtZlpzMjhuVDB1d1RmdC1kWVJwNG8zV0lINFcxX2plbnlfV21fWUVOaVFaVExfSzZGVU8tNXdVRng1SmpzdS14RldvQkpFaXRWVm5nYjV3MVotQXBNQ2tGXzJVdHl2WDBNMFpUbWNXQTVr?oc=5",
       "source": "The Hindu",
       "published": "2026-11-17T17:52:28Z",
-      "category": "india"
-    },
-    {
-      "id": "2f58d2dbc667",
-      "title": "ONGC Share Price",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BZndBbkF4cmU5QWRoemVsNXU2dlh6bW5yZXd6bTYyUkNFVUdTWUs1ZkV0ekhaUzl1dlpqRi1PZWlXY0VmNnV5eFUyVDlXWEFNSGNXR256NjVCZ3Zlakt5c2RVTzVBS2RfZE9Sa1Z5SC0?oc=5",
-      "source": "Upstox",
-      "published": "2026-11-17T16:49:15Z",
       "category": "india"
     },
     {
@@ -643,14 +659,6 @@
       "category": "cht"
     },
     {
-      "id": "b7daabdfd64b",
-      "title": "Salt Lake housing complex residents to meet over safety measures after cracker blaze",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQRXVuTmV5LW9ETTc1ZVFBaVpXekpKXzMtWWJ0UlI5WWpOZWlDUE1rbE8yRk9LeS1jV2k5Rk91Nk8tWUZEOU9udVNIcllDZVQ1Y3NjWDEtaTEtTnVadm03S1lwNVFoaUViSVNpZ2NSdE5YeGZta2R3eWF4MHpHWnBJY013bmI1WGdNbmV6VjJmWmJvbDg0YllqbU5sUzFDcjZfUlBaZmhIQTA3U3FBSDRacW16b0pJM245OVIyZUZwN0VaZ055X1VlUlZ2blZFakxUQUxYODZZRUUyZDgzQUt0WUxhc0UyWkx1Zjh5LdIB8gFBVV95cUxNTm9qV3JRcnQ3ZjFJekh3TDdXNS1lVDB6aXlzdXRBUV9IZklQMUJHMlpWbkRtOEluSVplOXVNQVdfMmhfRFlzTGM3RGRHX2VHcTFuSW1RLXo5RjZhTkJ6V0lvc0pFM242Zzd1YVhaOUZfNG85MUMyYVdqa2VvUGktZFdBU1E1d0FSejc5Nl96ams2ZWtSenAyRHdOdU1sZTNrcWVtV3ZXbWw5UXZHN2tGUm9HbU1sS2VnVEdZbTQ0NVN0YzlJeFJ3Ui04cmlnUmJmZHBHY25zWFhJeVdlUEhsMXBSTU5qNllNQXE4R0UyZnhGQQ?oc=5",
-      "source": "Telegraph India",
-      "published": "2026-11-14T01:36:18Z",
-      "category": "safety"
-    },
-    {
       "id": "7338f6679c7f",
       "title": "All 893 E20 petrol samples tested across 27 states, UTs meet prescribed ethanol standards: BPCL",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPb09VT180QUQxZDlCdVNqU2xReWVMX255bWxTcVlMa2dnWktNaDhScHZSeHlOU2FRbjB6SzNLSDYtcDdISjB3TXBDUVFLSlNVMkhzMkREVzNNdGQ1ZW5SeFFsa3RueloyR1A0MHBQZmEzRWJHdjZxNWZ2TC1xdmUtSk1BcWNqQWc4Z0dnZm9LYU1QVS0zcW1GX2NId05lMjVWTUJacnFwWWZ0cENfbVZEZDBVcjFrbGM5UWpndV9RVWNXUHJSRXhGYlJsLW9XcFd3Yi1CSDlFZldDbXVv?oc=5",
@@ -672,6 +680,14 @@
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVkZpMlp5STQyN2pqNDRTRTVRVlFQc2xWOENqbnVCd09IWnRXbkpoM2QzeF9JdE9Lcm9fY3RpOTM0RlRLd2N2TndkMUZoN0NKUzFpYUx2a3dDNHF6M2FNeUM1TjMzSVc4bUpZb2NqUlNvaXNjczN3OXhYSDRXcFdMdUlvVlNFQjFkZTlJS2FCSUhYS1R6NFRvcmlnWW9ZY0w3eEZvdHEydw?oc=5",
       "source": "Romania Insider",
       "published": "2026-11-13T09:53:45Z",
+      "category": "safety"
+    },
+    {
+      "id": "0a15315dbed8",
+      "title": "Ukrainian Drone Strike Sparks Fire at Russia’s Major Volgograd Oil Refinery - Oj",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdDA2ZEgxUjhIRE4zY0ZwWmprTXNiSHFsdUl5UGhOb2tNYklyMDNWLXJDSmRIaEhMSE8xMmVJcnRKWk9OeGNpc25PVnl1UWpBTFExeXdQZm4wNEZNeHdHS09WMnc5eFYwMGRUN3BXOXNNMUxxSTZFbUhXTTJMQlZkOXVIT2o2bWtLWG02ZU1vVER6WjRHUjBlWXNrcnFWdHpQMHA4cHVR?oc=5",
+      "source": "Odessa Journal",
+      "published": "2026-11-13T07:27:18Z",
       "category": "safety"
     },
     {
@@ -713,14 +729,6 @@
       "source": "The News Minute",
       "published": "2026-11-07T08:00:00Z",
       "category": "cht"
-    },
-    {
-      "id": "9b7e43ac9f1a",
-      "title": "Oil Above $100 and a US Election: A Double Risk for Indian Stocks",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWUVUcnplcngwQzJBbGN2VlVacDk2bWtTa2V1X2phTmZBOXM1SkVfRXpSSzdLcHBlV093WDBVTkMtVkk3MHZIMkI3eFJGR0lGSURvM1R5U1RiaWstd2xDOEJjQlI3WHhwREtvMkZlN3UtMFJqOUh6QlBnUENHMjFZano3clVCMXU4NUJxdjhRYnA3cW9CMDRtMkxCaHQxdmptRU1WXzVDZEwwR3M?oc=5",
-      "source": "Multibagg AI",
-      "published": "2026-11-04T05:22:32Z",
-      "category": "ppac"
     },
     {
       "id": "f5306e352251",
