@@ -1,7 +1,7 @@
 {
   "mode": "live",
   "status": "ok",
-  "checked_at": "2026-11-19T19:25:36Z",
+  "checked_at": "2026-11-19T19:34:09Z",
   "categories": {
     "india": "India",
     "global": "Global",
@@ -11,11 +11,27 @@
   },
   "items": [
     {
+      "id": "d0702b2f8f92",
+      "title": "Saudi Crude Oil Exports Rise to Seven-Month High in September, Data Shows",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSXNHNEd5QUlhbFFuNHpKTTRXcU5TUTJOTzNZVW96UldNcVFHWlpjTVRiOW9XRmQwSmFqclVYdktJU1U4cV9oWlB3ZHJwaWFONENkOGtQN1BvTTF0cUVUYlNzR3ZkSnJZcU1MbkVRZHF6UkVnSUFFazE1aGhzbVdSVnN5bC1tOE5zYVpaSTM4Y3FZY21EZmlJZk9ZVzE5Nzd6SjQyTkZR?oc=5",
+      "source": "EnergyNow.com",
+      "published": "2026-11-19T19:32:37Z",
+      "category": "global"
+    },
+    {
       "id": "665eb24a68ff",
       "title": "Natural Gas, WTI Oil, Brent Oil Forecasts – Oil Rebounds As Iran Intensifies Attacks In Hormuz",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdENuTHpJRmszRU11b1E3VlVfNDJ3QkhtYVk1RjBjV2d2X1Rpa2x0VjM1c2J3YzR2VklEdGlhbjhockMzZ1VZZ0VENV84M1haTnN1MUJZQ2xmS1ZtcWczSnVwbU9OZlRuVExVSjdfTkRncTF5TlBYcTI2Zzk5RDdpLVpvRXpqQ19oRFpXWUZkd2lYRG9pb00wRGlNSG9Ud2dXckVvWlFsWWVzc0xxamNQMll3UnhLMHc3N3ZXVHdkUE9PaEhLQ29nZFRISF9ERXdXVDdMalZPSXo?oc=5",
       "source": "FXEmpire",
-      "published": "2026-11-19T19:07:53Z",
+      "published": "2026-11-19T19:26:30Z",
+      "category": "global"
+    },
+    {
+      "id": "4f5c2ec513d3",
+      "title": "INPEX sanctions Ichthys LNG expansion project, awards contract",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPczk0bzczaVZPUnBIZXozVGxqUjJYd3ZaanRmX3JmNHVDaHk2MlNnbjVuVVpsNDZaRjdjbERmWlB3RXB2RFFwemZmZnB3azEtNU5UZURvVUdaWXRTUmlNeUR0ZncyNHV5M3FXRVRLaHRDc3VZOUI5eWpmRjdja3BDS1BJc0lOeVFiOFZ1T2F0dDdieldRaWw4blY2SURCQjU5QWtabURDN3duOG9hUzUydWtB?oc=5",
+      "source": "Oil & Gas Journal",
+      "published": "2026-11-19T19:24:12Z",
       "category": "global"
     },
     {
@@ -51,6 +67,14 @@
       "category": "global"
     },
     {
+      "id": "f296540e7a6e",
+      "title": "India's October crude oil imports rise over 4% month-on-month",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaC1ES29YSWdoUk4wWEo0X0o5bWgzQlZ4dnpyWi1XaUJCUlZmemFBNi1WUVVsVEIyX25uRlZrODM0R1BYVDlKc3MweWo2LWxEcDlzNWRuVm9sQmNPa2hMNVU3aHhoaHZ1ZktkUDctVnd2QldwalNyZ3NzSGY1OE1ndmo0RWw4aWJUNERPTmhqWUZoZUtHUFo0TXFRSUpjMGRhTTIwcUxyWEw2VE0?oc=5",
+      "source": "Reuters",
+      "published": "2026-11-19T18:09:01Z",
+      "category": "india"
+    },
+    {
       "id": "8837f551ed2e",
       "title": "IEA sees potential for looser oil, LNG markets after Hormuz crisis",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVUxBV3lHRy1fUnRCZXNhS3hzYU9uMTRvUXRkQWE3YlliVnE3TlNmb0JjclNsVG5XWkJmY2czRWVGWWxWdUpjUGdrcXF1U3RPV0lwRWhkNFN6VUpwRUtyTW1iVk84ek5uUEFFWE14NnF4LVJEZHItWDBuSmZXZ1diQThVWndMdE1waVdRckp1SElrTGFXVTFsaTM1V3NUUjA2TnlLUTBPS1JZTUx3c3dSVlUyU0tsOXFITzZxaUpyMml4dlFVdVFGNkJZbF9jZ1U?oc=5",
@@ -64,14 +88,6 @@
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPekt0cDZkcHZrUW1ENHp5eF81amRfeGpzREFBWDhpZ0FEUXVBYTRqcXd6MWJnSGVWMklWdG4zYzNpOERyQVBFUkU0QXpaYXBqeDk0RUUyRUxmNmpKcVhlWXRTN3dUSURLcDFZNWJTa1RtLUFUdEt3Q0thajBDYzNkQzNMYU5kSzVsd2tRa013bDdTd0ktSy0tY1F4TGp5b3F0U19tVVl5TjQycU5tci1yeXJDVTIwNks5anN4aXRjVnNURmpxRGkzQUxhOEVuRUt6UFc1ZXd2RS0wYWRPTWc?oc=5",
       "source": "MarketsMojo",
       "published": "2026-11-19T17:30:34Z",
-      "category": "india"
-    },
-    {
-      "id": "f296540e7a6e",
-      "title": "India's October crude oil imports rise over 4% month-on-month",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWlBsRE9wcGl6eFRkRFp3dVExU1gzY1NydzFsM1ZqaW9ZNWdmUEFXX0ZFdVpuZUQ4cTdDWm9SeFQ1TTVPelRfUFhqVXBfUkNmQ3FmYTZEUzQzTEg1bnBzek9QS05MYllkOXlIWV9KM1F3MU4yemVZTU9YQ1N0SHQxdzl1V3FHYnVFblUzLWx3NWc2TWt3WlIwQW5IYzZtNlpJNUlteTFUQlpfRjFFSjFfanhBbWY3c2RrbzNCRmtpYWtGNzhzS0s5cDd3?oc=5",
-      "source": "TradingView",
-      "published": "2026-11-19T17:28:00Z",
       "category": "india"
     },
     {
@@ -219,14 +235,6 @@
       "category": "india"
     },
     {
-      "id": "9e4418f99ea0",
-      "title": "Brent rebounds as Gulf attacks and Russian refinery strikes persist",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZk8wOGxYNkVxWGE5UUxzenhUV19rWWdvNnJ1NU10aGdpcTg0SHZaUE5WZnJfb1dvZ0I5UzlnYjdoWG01QWxqVHFScnVsNG55a0thQUJITnBJenY5R2ZaRHJJZm01UXBPeV83YVV4MFNxRkJBQ1JRZnRkMTNmaEZxbTZkcGIwTWVscUROal92U1g4OUVjeEpjZ1hCcGVMQWxCNFEzN2hR?oc=5",
-      "source": "https://www.engine.online/",
-      "published": "2026-11-19T10:46:23Z",
-      "category": "global"
-    },
-    {
       "id": "9c5086314023",
       "title": "India's Oil Imports Hit Record High as Saudi Shipments Surge",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa0Q0UFo3ckc5VVBfdTNTOEpQS0IwaVAwVFl4X21Nb2x3XzNpOUd1bzYzdk9MdUt3cjRMR041Qjlkd01TVUstQnpVa0U2MWZ3WjV4VWxBdTNUSlM4a25qWmsxOGxCbkNCMGI4bDhVNzJycXQtLXdVYWdITXZyRF9KbWM1MzJxLURzaXU3ZkI1TExkdGdvUlVhSTNjSVNoZ0tNN1pIUHk3MW5ZTVI2MVlURmxRZWZ4UdIBuwFBVV95cUxQZFhsT3p3Wk51Ykt5QzNWcG1rRUlHLVp6bkkwOE5tbVpTb0dELXBEZmlXcmZPZ3dfT2VvQU5KTktWeEtabEpmZTBuREFxTHpHSGU0enVrem5mc3VNNTlXcnNvNjRmZEFsVzRoR1FrclpGaUl4S2IyNmxvanBMWlFTeVRMamVUcElMbnlNcGszdnlNZ3RQUUdSbTc1eGZDMmQwM0pJd1c2ZVp3bHM2Slo5NExwMUdIeTBBZldV?oc=5",
@@ -281,14 +289,6 @@
       "source": "Egypt Oil & Gas",
       "published": "2026-11-19T10:10:26Z",
       "category": "india"
-    },
-    {
-      "id": "cb59c6e971e1",
-      "title": "Dangote and SEC in Secondary-Sale Talks to Meet Refinery IPO Demand",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWVRwTjZhNEJnY0NKRjFSOEZDOW90aHBtblNwRHdvbEZMMU8xclhwS0pBTTF1UjFUUEVPQU5fSnQ1NEdrR1FBcnVjNmlIR1BVdEFVUnR0a3JKM0kwOEUwVUxTYUpzSlJGbmdvbkQ2NllGdXo5VnhQZ0tkRExPYlpEVFJabkwzQTBRRm1VWTNjcmpBa3EtemZ6VmlXSFlEdFM4LUdwM2dNMUdRNXdrcGMtOVNCSmU?oc=5",
-      "source": "Bloomberg.com",
-      "published": "2026-11-19T09:53:26Z",
-      "category": "global"
     },
     {
       "id": "0c3d86d4853e",
