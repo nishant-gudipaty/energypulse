@@ -62,6 +62,18 @@ function unavailable(obj, what) {
   return `<div class="unavailable">${esc(what)}: ${reason}<br><span class="small">Live mode never substitutes demo numbers.</span></div>`;
 }
 
+// Only compare with a previous value that is close in time (PPAC's daily archive has gaps).
+function recentPrev(obj, maxDays = 7) {
+  const a = obj?.latest, b = obj?.previous;
+  if (!a || !b) return null;
+  return (new Date(a.date) - new Date(b.date)) / 864e5 <= maxDays ? b : null;
+}
+function recentHistory(obj, days = 120) {
+  const h = obj?.history || []; if (!h.length) return [];
+  const cutoff = new Date(h.at(-1).date) - days * 864e5;
+  return h.filter((p) => new Date(p.date) >= cutoff);
+}
+
 // ---------------------------------------------------------------- chart (SVG)
 let chartSeq = 0;
 function chart(points, { type = 'line', height = 170, unit = '', label = fmtDate } = {}) {
@@ -117,7 +129,7 @@ async function viewHome() {
   const hero = b ? `
     <div class="row"><span class="muted small">Indian Crude Basket · ${fmtDate(b.date)}</span>${badge(basket)}</div>
     <div class="big">$${fmt(b.usd)}<span class="muted" style="font-size:15px;font-weight:500"> /bbl</span></div>
-    <div>${changeHtml(b.usd, basket.previous?.usd, '')} ${basket.previous ? `<span class="muted small">vs ${fmtDate(basket.previous.date)}</span>` : ''}</div>
+    ${recentPrev(basket) ? `<div>${changeHtml(b.usd, recentPrev(basket).usd)} <span class="muted small">vs ${fmtDate(recentPrev(basket).date)}</span></div>` : ''}
     ${fx ? `<div class="muted small" style="margin-top:6px">≈ ₹${fmt(b.usd * fx, 0)} /bbl at ₹${fmt(fx)} per $ (derived)</div>` : ''}
     ${basketChart(basket)}`
     : `<div class="row"><b>Indian Crude Basket</b>${badge(basket)}</div>${unavailable(basket, 'Indian Crude Basket')}`;
@@ -147,8 +159,8 @@ async function viewHome() {
 }
 
 function basketChart(basket) {
-  const daily = (basket.history || []).map((p) => ({ x: p.date, y: p.usd }));
-  if (daily.length >= 10) return chart(daily.slice(-90), { unit: ' $/bbl' });
+  const daily = recentHistory(basket).map((p) => ({ x: p.date, y: p.usd }));
+  if (daily.length >= 10) return chart(daily, { unit: ' $/bbl' });
   const monthly = (basket.monthly || []).map((p) => ({ x: p.month, y: p.usd }));
   if (monthly.length >= 2) return `<div class="small muted" style="margin-top:10px">Monthly average ($/bbl)</div>${chart(monthly, { type: 'bar', unit: ' $/bbl', label: fmtMonth })}`;
   return '';
@@ -183,9 +195,9 @@ async function viewMarkets() {
     <h1>Markets</h1>
     <div class="card hero">
       <div class="row"><h2>Indian Crude Basket</h2>${badge(basket)}</div>
-      ${basket.latest ? `<div class="row"><div class="mid">$${fmt(basket.latest.usd)}</div>${changeHtml(basket.latest.usd, basket.previous?.usd)}</div>
+      ${basket.latest ? `<div class="row"><div class="mid">$${fmt(basket.latest.usd)}</div>${changeHtml(basket.latest.usd, recentPrev(basket)?.usd)}</div>
         <div class="muted small">${fmtDate(basket.latest.date)} · ${esc(basket.source?.name || '')}</div>` : unavailable(basket, 'Indian Crude Basket')}
-      ${(basket.history || []).length >= 10 ? chart(basket.history.map((p) => ({ x: p.date, y: p.usd })).slice(-mktRange), { unit: ' $/bbl' }) : ''}
+      ${recentHistory(basket, mktRange * 1.45).length >= 10 ? `<div class="small muted" style="margin-top:10px">Daily ($/bbl)</div>${chart(recentHistory(basket, mktRange * 1.45).map((p) => ({ x: p.date, y: p.usd })), { unit: ' $/bbl' })}` : ''}
       ${monthly.length ? `<div class="small muted" style="margin-top:12px">Monthly average ($/bbl)</div>${chart(monthly.map((p) => ({ x: p.month, y: p.usd })), { type: 'bar', unit: ' $/bbl', label: fmtMonth })}` : ''}
       ${comp ? `<details style="margin-top:10px"><summary class="small"><b>Basket composition (ICB ratio)</b></summary>
         <p class="small muted">${esc(comp.explanation)}</p>
@@ -227,7 +239,7 @@ async function viewImpact() {
   const fx = (markets.series || []).find((x) => x.id === 'usdinr')?.latest?.usd;
   const m = basket.monthly || [];
   const defChange = 1;
-  const lastMove = basket.latest && basket.previous ? basket.latest.usd - basket.previous.usd : null;
+  const lastMove = recentPrev(basket) ? basket.latest.usd - recentPrev(basket).usd : null;
   const saved = store.get('calc', {});
   const v = { change: saved.change ?? defChange, fx: saved.fx ?? (fx ? +fx.toFixed(2) : 88), mmt: saved.mmt ?? 70, bpt: saved.bpt ?? 7.33 };
   return `
@@ -235,7 +247,7 @@ async function viewImpact() {
     <div class="card">
       <p class="small muted" style="margin-top:0">Estimate how a change in crude price moves the annual crude bill. Change any number; your inputs are remembered on this device.</p>
       <div class="field"><label for="c-change">Change in crude price ($/bbl)</label><input id="c-change" type="number" step="0.1" inputmode="decimal" value="${v.change}">
-        <span class="hint">Starts at $1/bbl to show the sensitivity.${lastMove != null ? ` Latest Indian Basket move: ${lastMove >= 0 ? '+' : '−'}$${fmt(Math.abs(lastMove))} (${fmtDate(basket.previous.date)} → ${fmtDate(basket.latest.date)}).` : ''}${m.length >= 2 ? ` Monthly average move ${fmtMonth(m.at(-2).month)} → ${fmtMonth(m.at(-1).month)}: ${m.at(-1).usd - m.at(-2).usd >= 0 ? '+' : '−'}$${fmt(Math.abs(m.at(-1).usd - m.at(-2).usd))}.` : ''}</span></div>
+        <span class="hint">Starts at $1/bbl to show the sensitivity.${lastMove != null ? ` Latest Indian Basket move: ${lastMove >= 0 ? '+' : '−'}$${fmt(Math.abs(lastMove))} (${fmtDate(recentPrev(basket).date)} → ${fmtDate(basket.latest.date)}).` : ''}${m.length >= 2 ? ` Monthly average move ${fmtMonth(m.at(-2).month)} → ${fmtMonth(m.at(-1).month)}: ${m.at(-1).usd - m.at(-2).usd >= 0 ? '+' : '−'}$${fmt(Math.abs(m.at(-1).usd - m.at(-2).usd))}.` : ''}</span></div>
       <div class="field"><label for="c-fx">Exchange rate (₹ per $)</label><input id="c-fx" type="number" step="0.01" inputmode="decimal" value="${v.fx}">
         <span class="hint">${fx ? 'Pre-filled with the latest live USD/INR reference rate.' : 'Live rate unavailable; enter the rate you want to use.'}</span></div>
       <div class="field"><label for="c-mmt">Crude processed (million tonnes per year)</label><input id="c-mmt" type="number" step="0.1" inputmode="decimal" value="${v.mmt}">
