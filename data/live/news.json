@@ -1,7 +1,7 @@
 {
   "mode": "live",
   "status": "ok",
-  "checked_at": "2026-11-19T19:20:47Z",
+  "checked_at": "2026-11-19T19:23:16Z",
   "categories": {
     "india": "India",
     "global": "Global",
@@ -97,14 +97,6 @@
       "source": "HDFC Sky",
       "published": "2026-11-19T16:43:47Z",
       "category": "india"
-    },
-    {
-      "id": "fcd710df7f50",
-      "title": "Crude Oil Prices Edge Higher on Fears of Escalation in US-Iran Conflict",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOakVQNFFWQWc4WldBSkN0LThtZkZvejcxRDBIb3U5bGoycEJUYWNaRDJPbXlNbVdudUVZX1drX0xmSzVsOGpPWGdWbi1lMk1CV1U0S2tOYkFIZVhleU0xa0dIeWJ6aW42Zlk0X29WNU1sdXBvWF9rQkVUcllJVVF4dUtNd1JUUHpDakh1S0lvVFgzN2xZUnFUdmVRZFlxRnloZ0JXZFJmbi1NUk0zV25iWF9JamNGdw?oc=5",
-      "source": "Barchart.com",
-      "published": "2026-11-19T16:38:30Z",
-      "category": "global"
     },
     {
       "id": "5caa541f748d",
@@ -281,6 +273,14 @@
       "source": "Egypt Oil & Gas",
       "published": "2026-11-19T10:10:26Z",
       "category": "india"
+    },
+    {
+      "id": "cb59c6e971e1",
+      "title": "Dangote and SEC in Secondary-Sale Talks to Meet Refinery IPO Demand",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWVRwTjZhNEJnY0NKRjFSOEZDOW90aHBtblNwRHdvbEZMMU8xclhwS0pBTTF1UjFUUEVPQU5fSnQ1NEdrR1FBcnVjNmlIR1BVdEFVUnR0a3JKM0kwOEUwVUxTYUpzSlJGbmdvbkQ2NllGdXo5VnhQZ0tkRExPYlpEVFJabkwzQTBRRm1VWTNjcmpBa3EtemZ6VmlXSFlEdFM4LUdwM2dNMUdRNXdrcGMtOVNCSmU?oc=5",
+      "source": "Bloomberg.com",
+      "published": "2026-11-19T09:53:26Z",
+      "category": "global"
     },
     {
       "id": "0c3d86d4853e",
@@ -523,19 +523,19 @@
       "category": "safety"
     },
     {
-      "id": "2f58d2dbc667",
-      "title": "ONGC Share Price",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BZndBbkF4cmU5QWRoemVsNXU2dlh6bW5yZXd6bTYyUkNFVUdTWUs1ZkV0ekhaUzl1dlpqRi1PZWlXY0VmNnV5eFUyVDlXWEFNSGNXR256NjVCZ3Zlakt5c2RVTzVBS2RfZE9Sa1Z5SC0?oc=5",
-      "source": "Upstox",
-      "published": "2026-11-17T18:45:46Z",
-      "category": "india"
-    },
-    {
       "id": "e3b3c37014b1",
       "title": "BPCL plans to raise ₹9,000 crore through bond sale after nearly four years",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRENsNmRIaENHQ3k5RlRVazliZVNYd3RmRU5yY2lEQ2FXNDJEMWtrR0ZtUkZLUzZ3bWNpWGx3QmVOZDJXWi0wNTRudFZwWlJVYlJGX2VBU2ctbEY5QVJ2ZjlrVEhsbTdXZXZMMGtRMmx4bG5NdlJnY25ZQXpsZTNESk1MWjdpMWItNmo0R2dIZmlURWtXdlpmei1PWkpwakZ6SkVHX2s2RzdvX2FObFJ4MUZwMFpNV21GVk1pWHdBSGJ6QUhT0gHLAUFVX3lxTFBMVWNNcGQ3TlA0SzkyR3F2RzZVamdpWFVlWFQza2lQZ3c5V2ZRSGlKWDJ3SXpjNER6VFl4RE9iaWZSNFJFYnNCRzU2bGVYSlhZZG8wMW9zelYxdUVYOWlBVVhtZlpzMjhuVDB1d1RmdC1kWVJwNG8zV0lINFcxX2plbnlfV21fWUVOaVFaVExfSzZGVU8tNXdVRng1SmpzdS14RldvQkpFaXRWVm5nYjV3MVotQXBNQ2tGXzJVdHl2WDBNMFpUbWNXQTVr?oc=5",
       "source": "The Hindu",
       "published": "2026-11-17T17:52:28Z",
+      "category": "india"
+    },
+    {
+      "id": "2f58d2dbc667",
+      "title": "ONGC Share Price",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BZndBbkF4cmU5QWRoemVsNXU2dlh6bW5yZXd6bTYyUkNFVUdTWUs1ZkV0ekhaUzl1dlpqRi1PZWlXY0VmNnV5eFUyVDlXWEFNSGNXR256NjVCZ3Zlakt5c2RVTzVBS2RfZE9Sa1Z5SC0?oc=5",
+      "source": "Upstox",
+      "published": "2026-11-17T17:47:22Z",
       "category": "india"
     },
     {
@@ -635,6 +635,14 @@
       "category": "safety"
     },
     {
+      "id": "3463a9786a81",
+      "title": "One of Russiaʼs largest petrochemical plants on fire in Tatarstan after drone attack. Taganrog was also hit",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNd3dqYnVfMzJ6RGZIcXJ2LTdmUDI2X0dCU0h2U3dFLUNkbWNHNnZoMEZMWkszdkRmZUJ1UTdBQmk0Y1dfZXdnN0NsaENKTGFpaVotQjZ4bk9JV29QeUpVdGRVOUlXeTA0N1NHa0lvOVpKR0h0VldBTUhGZFZlTXRuLWxTQmtMYU9FUTBUVFZ6eFVCeDlFWjdxOENBcWlzRTJSdDhRWHRaYVU2dzBCZVhmaUx0bkF2ZWtoV0tCSklvV0VzeWVhSTJTelFsYW95QjhDMHlJWg?oc=5",
+      "source": "Бабель",
+      "published": "2026-11-15T06:21:25Z",
+      "category": "safety"
+    },
+    {
       "id": "7d912d18d69b",
       "title": "Drone attack on Russia's Tatarstan causes fire at one of Europe's largest petrochemical plants – photo",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwbVlfdVF4MWY0bHp6Q0ZhLUlzdkw4WmxaWjhNVGZlU1pCWXNySjR6LTJsbUJLN01DQUVkYmZ6V3ZSRVRJQjBVM3h0azRWSkRmTFhWNEV2TVFIb0RJVXJFRDgzRFTSAXBBVV95cUxPdlJLck9Pd3lDcE1oTXJNSDR4MlhGZFB5Y0RkVHdSRW5GVG1CckdPM3Z5THdaRXhqcm50dTlaOWwyVkhKNVFEeGtEMjN4aFhsN3JTVGdoYXBwcDZvQjJZLVFYV3loM2RWM3FOMFFTeDRs?oc=5",
@@ -659,6 +667,14 @@
       "category": "cht"
     },
     {
+      "id": "b7daabdfd64b",
+      "title": "Salt Lake housing complex residents to meet over safety measures after cracker blaze",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQRXVuTmV5LW9ETTc1ZVFBaVpXekpKXzMtWWJ0UlI5WWpOZWlDUE1rbE8yRk9LeS1jV2k5Rk91Nk8tWUZEOU9udVNIcllDZVQ1Y3NjWDEtaTEtTnVadm03S1lwNVFoaUViSVNpZ2NSdE5YeGZta2R3eWF4MHpHWnBJY013bmI1WGdNbmV6VjJmWmJvbDg0YllqbU5sUzFDcjZfUlBaZmhIQTA3U3FBSDRacW16b0pJM245OVIyZUZwN0VaZ055X1VlUlZ2blZFakxUQUxYODZZRUUyZDgzQUt0WUxhc0UyWkx1Zjh5LdIB8gFBVV95cUxNTm9qV3JRcnQ3ZjFJekh3TDdXNS1lVDB6aXlzdXRBUV9IZklQMUJHMlpWbkRtOEluSVplOXVNQVdfMmhfRFlzTGM3RGRHX2VHcTFuSW1RLXo5RjZhTkJ6V0lvc0pFM242Zzd1YVhaOUZfNG85MUMyYVdqa2VvUGktZFdBU1E1d0FSejc5Nl96ams2ZWtSenAyRHdOdU1sZTNrcWVtV3ZXbWw5UXZHN2tGUm9HbU1sS2VnVEdZbTQ0NVN0YzlJeFJ3Ui04cmlnUmJmZHBHY25zWFhJeVdlUEhsMXBSTU5qNllNQXE4R0UyZnhGQQ?oc=5",
+      "source": "Telegraph India",
+      "published": "2026-11-14T01:36:18Z",
+      "category": "safety"
+    },
+    {
       "id": "7338f6679c7f",
       "title": "All 893 E20 petrol samples tested across 27 states, UTs meet prescribed ethanol standards: BPCL",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPb09VT180QUQxZDlCdVNqU2xReWVMX255bWxTcVlMa2dnWktNaDhScHZSeHlOU2FRbjB6SzNLSDYtcDdISjB3TXBDUVFLSlNVMkhzMkREVzNNdGQ1ZW5SeFFsa3RueloyR1A0MHBQZmEzRWJHdjZxNWZ2TC1xdmUtSk1BcWNqQWc4Z0dnZm9LYU1QVS0zcW1GX2NId05lMjVWTUJacnFwWWZ0cENfbVZEZDBVcjFrbGM5UWpndV9RVWNXUHJSRXhGYlJsLW9XcFd3Yi1CSDlFZldDbXVv?oc=5",
@@ -680,14 +696,6 @@
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVkZpMlp5STQyN2pqNDRTRTVRVlFQc2xWOENqbnVCd09IWnRXbkpoM2QzeF9JdE9Lcm9fY3RpOTM0RlRLd2N2TndkMUZoN0NKUzFpYUx2a3dDNHF6M2FNeUM1TjMzSVc4bUpZb2NqUlNvaXNjczN3OXhYSDRXcFdMdUlvVlNFQjFkZTlJS2FCSUhYS1R6NFRvcmlnWW9ZY0w3eEZvdHEydw?oc=5",
       "source": "Romania Insider",
       "published": "2026-11-13T09:53:45Z",
-      "category": "safety"
-    },
-    {
-      "id": "0a15315dbed8",
-      "title": "Ukrainian Drone Strike Sparks Fire at Russia’s Major Volgograd Oil Refinery - Oj",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdDA2ZEgxUjhIRE4zY0ZwWmprTXNiSHFsdUl5UGhOb2tNYklyMDNWLXJDSmRIaEhMSE8xMmVJcnRKWk9OeGNpc25PVnl1UWpBTFExeXdQZm4wNEZNeHdHS09WMnc5eFYwMGRUN3BXOXNNMUxxSTZFbUhXTTJMQlZkOXVIT2o2bWtLWG02ZU1vVER6WjRHUjBlWXNrcnFWdHpQMHA4cHVR?oc=5",
-      "source": "Odessa Journal",
-      "published": "2026-11-13T07:27:18Z",
       "category": "safety"
     },
     {
@@ -729,6 +737,14 @@
       "source": "The News Minute",
       "published": "2026-11-07T08:00:00Z",
       "category": "cht"
+    },
+    {
+      "id": "9b7e43ac9f1a",
+      "title": "Oil Above $100 and a US Election: A Double Risk for Indian Stocks",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWUVUcnplcngwQzJBbGN2VlVacDk2bWtTa2V1X2phTmZBOXM1SkVfRXpSSzdLcHBlV093WDBVTkMtVkk3MHZIMkI3eFJGR0lGSURvM1R5U1RiaWstd2xDOEJjQlI3WHhwREtvMkZlN3UtMFJqOUh6QlBnUENHMjFZano3clVCMXU4NUJxdjhRYnA3cW9CMDRtMkxCaHQxdmptRU1WXzVDZEwwR3M?oc=5",
+      "source": "Multibagg AI",
+      "published": "2026-11-04T05:22:32Z",
+      "category": "ppac"
     },
     {
       "id": "f5306e352251",
