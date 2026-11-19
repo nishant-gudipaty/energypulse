@@ -1,7 +1,7 @@
 {
   "mode": "live",
   "status": "ok",
-  "checked_at": "2026-11-19T19:39:11Z",
+  "checked_at": "2026-11-19T19:42:43Z",
   "categories": {
     "india": "India",
     "global": "Global",
@@ -289,6 +289,14 @@
       "source": "Egypt Oil & Gas",
       "published": "2026-11-19T10:10:26Z",
       "category": "india"
+    },
+    {
+      "id": "cb59c6e971e1",
+      "title": "Dangote and SEC in Secondary-Sale Talks to Meet Refinery IPO Demand",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWVRwTjZhNEJnY0NKRjFSOEZDOW90aHBtblNwRHdvbEZMMU8xclhwS0pBTTF1UjFUUEVPQU5fSnQ1NEdrR1FBcnVjNmlIR1BVdEFVUnR0a3JKM0kwOEUwVUxTYUpzSlJGbmdvbkQ2NllGdXo5VnhQZ0tkRExPYlpEVFJabkwzQTBRRm1VWTNjcmpBa3EtemZ6VmlXSFlEdFM4LUdwM2dNMUdRNXdrcGMtOVNCSmU?oc=5",
+      "source": "Bloomberg.com",
+      "published": "2026-11-19T09:53:26Z",
+      "category": "global"
     },
     {
       "id": "0c3d86d4853e",
@@ -635,14 +643,6 @@
       "category": "safety"
     },
     {
-      "id": "3463a9786a81",
-      "title": "One of Russiaʼs largest petrochemical plants on fire in Tatarstan after drone attack. Taganrog was also hit",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNd3dqYnVfMzJ6RGZIcXJ2LTdmUDI2X0dCU0h2U3dFLUNkbWNHNnZoMEZMWkszdkRmZUJ1UTdBQmk0Y1dfZXdnN0NsaENKTGFpaVotQjZ4bk9JV29QeUpVdGRVOUlXeTA0N1NHa0lvOVpKR0h0VldBTUhGZFZlTXRuLWxTQmtMYU9FUTBUVFZ6eFVCeDlFWjdxOENBcWlzRTJSdDhRWHRaYVU2dzBCZVhmaUx0bkF2ZWtoV0tCSklvV0VzeWVhSTJTelFsYW95QjhDMHlJWg?oc=5",
-      "source": "Бабель",
-      "published": "2026-11-15T06:21:25Z",
-      "category": "safety"
-    },
-    {
       "id": "7d912d18d69b",
       "title": "Drone attack on Russia's Tatarstan causes fire at one of Europe's largest petrochemical plants – photo",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwbVlfdVF4MWY0bHp6Q0ZhLUlzdkw4WmxaWjhNVGZlU1pCWXNySjR6LTJsbUJLN01DQUVkYmZ6V3ZSRVRJQjBVM3h0azRWSkRmTFhWNEV2TVFIb0RJVXJFRDgzRFTSAXBBVV95cUxPdlJLck9Pd3lDcE1oTXJNSDR4MlhGZFB5Y0RkVHdSRW5GVG1CckdPM3Z5THdaRXhqcm50dTlaOWwyVkhKNVFEeGtEMjN4aFhsN3JTVGdoYXBwcDZvQjJZLVFYV3loM2RWM3FOMFFTeDRs?oc=5",
@@ -688,6 +688,14 @@
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVkZpMlp5STQyN2pqNDRTRTVRVlFQc2xWOENqbnVCd09IWnRXbkpoM2QzeF9JdE9Lcm9fY3RpOTM0RlRLd2N2TndkMUZoN0NKUzFpYUx2a3dDNHF6M2FNeUM1TjMzSVc4bUpZb2NqUlNvaXNjczN3OXhYSDRXcFdMdUlvVlNFQjFkZTlJS2FCSUhYS1R6NFRvcmlnWW9ZY0w3eEZvdHEydw?oc=5",
       "source": "Romania Insider",
       "published": "2026-11-13T09:53:45Z",
+      "category": "safety"
+    },
+    {
+      "id": "0a15315dbed8",
+      "title": "Ukrainian Drone Strike Sparks Fire at Russia’s Major Volgograd Oil Refinery - Oj",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdDA2ZEgxUjhIRE4zY0ZwWmprTXNiSHFsdUl5UGhOb2tNYklyMDNWLXJDSmRIaEhMSE8xMmVJcnRKWk9OeGNpc25PVnl1UWpBTFExeXdQZm4wNEZNeHdHS09WMnc5eFYwMGRUN3BXOXNNMUxxSTZFbUhXTTJMQlZkOXVIT2o2bWtLWG02ZU1vVER6WjRHUjBlWXNrcnFWdHpQMHA4cHVR?oc=5",
+      "source": "Odessa Journal",
+      "published": "2026-11-13T07:27:18Z",
       "category": "safety"
     },
     {
