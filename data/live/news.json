@@ -1,7 +1,7 @@
 {
   "mode": "live",
   "status": "ok",
-  "checked_at": "2026-11-19T19:23:16Z",
+  "checked_at": "2026-11-19T19:25:36Z",
   "categories": {
     "india": "India",
     "global": "Global",
@@ -161,6 +161,14 @@
       "source": "FXEmpire",
       "published": "2026-11-19T13:31:40Z",
       "category": "global"
+    },
+    {
+      "id": "ada3e988ad87",
+      "title": "India allows older vessels into fleet to cut reliance on foreign carriers",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMGVxek9zNW5UVmxuUGJGbHFzNklTX28xQlF3a1BBN09vR3VrNloxaEE4Zk1uYkZPSF9RajhzcVl1dldHa1lZWFhWY2oxTFFFbkZZMzJVVWdZaTJNR0ttQjU3VXhKdGptNlJnSU01eFBmdG5pOFYxUl8tQ3R0UmhEQzFtMXVDMWI1a19IbEdwLTh5MDg2aTRiWXVWVk1VVlRIR254UWtZNkNjVWFKRDgwLTZfVERQQQ?oc=5",
+      "source": "Reuters",
+      "published": "2026-11-19T13:11:45Z",
+      "category": "india"
     },
     {
       "id": "b748b974f0fc",
@@ -387,14 +395,6 @@
       "category": "india"
     },
     {
-      "id": "0cae16c88126",
-      "title": "Indian Rupee: Recovery supported by Oil and inflows – OCBC",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ1Z5Uk1yRHdJblBjNHgzeUpTYWt0YkI3bzdlZzJIQThUaVoxY3pHUlVjMjk2akxELWQ1R3pQMXFMd1E1NFpWejM4aDB0U2d4Y1J2a1lZcFRZeC01ZkZ2cVF1MjAtR0IyMmNDekxYcWpWY253MWtBNjhDai1GdlN6Wi1pNEt2NUM2MnRRS19ObUFqZUQ3Z290eEtrOTlJM3c?oc=5",
-      "source": "FXStreet",
-      "published": "2026-11-19T06:57:01Z",
-      "category": "india"
-    },
-    {
       "id": "e8faef22a4ec",
       "title": "Oil India's Q2 net profit stands at 2,259 cr",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZm0yOVJwOEx6TGZjakR2ZVJfUkJQc2w2MmpKUW9lSnhKRXRxaG5rQmY2Tnl1el9KOG9UMExjLU1hZXA2dmpPZGd4X1A4aTdnSzdsMTg1RFROZkhiWlZ3TE4tUFNZc3VOVmlXa19Kd1lFdGhCLXdwMUtsVVYydUtEU3NGMmQ0ZGN6TFo3aGdPZw?oc=5",
@@ -535,7 +535,7 @@
       "title": "ONGC Share Price",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BZndBbkF4cmU5QWRoemVsNXU2dlh6bW5yZXd6bTYyUkNFVUdTWUs1ZkV0ekhaUzl1dlpqRi1PZWlXY0VmNnV5eFUyVDlXWEFNSGNXR256NjVCZ3Zlakt5c2RVTzVBS2RfZE9Sa1Z5SC0?oc=5",
       "source": "Upstox",
-      "published": "2026-11-17T17:47:22Z",
+      "published": "2026-11-17T16:49:15Z",
       "category": "india"
     },
     {
@@ -635,14 +635,6 @@
       "category": "safety"
     },
     {
-      "id": "3463a9786a81",
-      "title": "One of Russiaʼs largest petrochemical plants on fire in Tatarstan after drone attack. Taganrog was also hit",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNd3dqYnVfMzJ6RGZIcXJ2LTdmUDI2X0dCU0h2U3dFLUNkbWNHNnZoMEZMWkszdkRmZUJ1UTdBQmk0Y1dfZXdnN0NsaENKTGFpaVotQjZ4bk9JV29QeUpVdGRVOUlXeTA0N1NHa0lvOVpKR0h0VldBTUhGZFZlTXRuLWxTQmtMYU9FUTBUVFZ6eFVCeDlFWjdxOENBcWlzRTJSdDhRWHRaYVU2dzBCZVhmaUx0bkF2ZWtoV0tCSklvV0VzeWVhSTJTelFsYW95QjhDMHlJWg?oc=5",
-      "source": "Бабель",
-      "published": "2026-11-15T06:21:25Z",
-      "category": "safety"
-    },
-    {
       "id": "7d912d18d69b",
       "title": "Drone attack on Russia's Tatarstan causes fire at one of Europe's largest petrochemical plants – photo",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwbVlfdVF4MWY0bHp6Q0ZhLUlzdkw4WmxaWjhNVGZlU1pCWXNySjR6LTJsbUJLN01DQUVkYmZ6V3ZSRVRJQjBVM3h0azRWSkRmTFhWNEV2TVFIb0RJVXJFRDgzRFTSAXBBVV95cUxPdlJLck9Pd3lDcE1oTXJNSDR4MlhGZFB5Y0RkVHdSRW5GVG1CckdPM3Z5THdaRXhqcm50dTlaOWwyVkhKNVFEeGtEMjN4aFhsN3JTVGdoYXBwcDZvQjJZLVFYV3loM2RWM3FOMFFTeDRs?oc=5",
@@ -737,14 +729,6 @@
       "source": "The News Minute",
       "published": "2026-11-07T08:00:00Z",
       "category": "cht"
-    },
-    {
-      "id": "9b7e43ac9f1a",
-      "title": "Oil Above $100 and a US Election: A Double Risk for Indian Stocks",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWUVUcnplcngwQzJBbGN2VlVacDk2bWtTa2V1X2phTmZBOXM1SkVfRXpSSzdLcHBlV093WDBVTkMtVkk3MHZIMkI3eFJGR0lGSURvM1R5U1RiaWstd2xDOEJjQlI3WHhwREtvMkZlN3UtMFJqOUh6QlBnUENHMjFZano3clVCMXU4NUJxdjhRYnA3cW9CMDRtMkxCaHQxdmptRU1WXzVDZEwwR3M?oc=5",
-      "source": "Multibagg AI",
-      "published": "2026-11-04T05:22:32Z",
-      "category": "ppac"
     },
     {
       "id": "f5306e352251",
