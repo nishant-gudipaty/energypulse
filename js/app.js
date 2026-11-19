@@ -462,7 +462,14 @@ document.addEventListener('click', async (e) => {
   if (t.dataset.action === 'install') {
     if (deferredPrompt) { deferredPrompt.prompt(); await deferredPrompt.userChoice; deferredPrompt = null; route(); return; }
     const steps = document.getElementById('install-steps');     // no system pop-up here: show this browser's steps
-    if (steps) { steps.hidden = !steps.hidden; if (!steps.hidden) steps.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
+    if (steps) {
+      steps.hidden = !steps.hidden;
+      // This browser can't install from a button, so say so plainly instead of looking like nothing happened.
+      t.textContent = steps.hidden ? 'Install app' : 'Follow the steps below to install ↓';
+      t.classList.toggle('accent', steps.hidden);
+      t.classList.toggle('secondary', !steps.hidden);
+      if (!steps.hidden) steps.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
   }
   if (t.dataset.action === 'install-dismiss') { store.set('installDismissed', true); t.closest('.install-card')?.remove(); }
 });
