@@ -9,27 +9,22 @@ on:
     branches: [main]
   workflow_dispatch: {}       # adds a "Run workflow" button in the Actions tab
 
-permissions:
-  contents: write    # lets the robot commit the new data files
-  pages: write       # lets it publish to GitHub Pages
-  id-token: write
-
 concurrency:
   group: energypulse
   cancel-in-progress: false
 
 jobs:
-  update-and-deploy:
+  # Job 1: fetch data, save it to the repo, package the site
+  update:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: write    # lets the robot commit the new data files
     steps:
       - name: Get the code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -51,14 +46,22 @@ jobs:
             git push
           fi
 
-      - name: Prepare site
-        uses: actions/configure-pages@v5
-
-      - name: Upload site
-        uses: actions/upload-pages-artifact@v3
+      - name: Package site
+        uses: actions/upload-pages-artifact@v5
         with:
           path: .
 
+  # Job 2: publish the packaged site to GitHub Pages
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Publish to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
