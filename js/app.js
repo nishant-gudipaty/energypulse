@@ -78,17 +78,17 @@ function recentHistory(obj, days = 120) {
 // Automatic update schedule (keep in sync with the cron lines in .github/workflows/update-and-deploy.yml)
 const UPDATE_SLOTS_IST = [[8, 0], [16, 0]];
 const slotLabel = ([h, m]) => `${((h + 11) % 12) + 1}:${String(m).padStart(2, '0')} ${h < 12 ? 'AM' : 'PM'}`;
-const SCHEDULE_TEXT = `Updates automatically every day at ${UPDATE_SLOTS_IST.map(slotLabel).join(' and ')} IST`;
+const SCHEDULE_TEXT = `Updates automatically every day around ${UPDATE_SLOTS_IST.map(slotLabel).join(' and ')} IST`;
 function nextUpdateLabel() {
   const ist = new Date(Date.now() + 5.5 * 3600e3);              // IST clock read via UTC getters
   const mins = ist.getUTCHours() * 60 + ist.getUTCMinutes();
   const next = UPDATE_SLOTS_IST.find(([h, m]) => h * 60 + m > mins);
-  return next ? `today ${slotLabel(next)}` : `tomorrow ${slotLabel(UPDATE_SLOTS_IST[0])}`;
+  return next ? `today around ${slotLabel(next)}` : `tomorrow around ${slotLabel(UPDATE_SLOTS_IST[0])}`;
 }
 function scheduleNote(meta) {
   const last = mode === 'live' && meta?.generated_at_ist ? `Last updated <b>${esc(meta.generated_at_ist.replace(' IST', ''))}</b> · ` : '';
   return `<div class="schedule"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
-    <span>${last}${SCHEDULE_TEXT}. Next update ${nextUpdateLabel()} (may run a few minutes late).</span></div>`;
+    <span>${last}${SCHEDULE_TEXT}. Next update ${nextUpdateLabel()}.</span></div>`;
 }
 
 async function renderTicker() {

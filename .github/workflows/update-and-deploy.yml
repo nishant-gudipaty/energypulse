@@ -2,9 +2,13 @@ name: Update data & deploy site
 
 on:
   schedule:
-    # Twice a day: 08:00 IST and 16:00 IST (GitHub cron uses UTC and can run a little late)
-    - cron: "30 2 * * *"
-    - cron: "30 10 * * *"
+    # GitHub's scheduler is best-effort: runs at busy times (:00 / :30) are often delayed or skipped.
+    # So each update has an odd-minute main slot plus a backup ~1 hour later. Extra runs are harmless.
+    # Times are UTC. IST = UTC + 5:30.
+    - cron: "23 2 * * *"     # 07:53 IST  morning update
+    - cron: "41 3 * * *"     # 09:11 IST  morning backup
+    - cron: "23 10 * * *"    # 15:53 IST  afternoon update
+    - cron: "41 11 * * *"    # 17:11 IST  afternoon backup
   push:
     branches: [main]
   workflow_dispatch: {}       # adds a "Run workflow" button in the Actions tab
