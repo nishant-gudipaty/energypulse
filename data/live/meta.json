@@ -1,7 +1,7 @@
 {
   "mode": "live",
-  "generated_at": "2026-11-21T18:12:05Z",
-  "generated_at_ist": "21 Nov 2026, 11:42 PM IST",
+  "generated_at": "2026-11-22T09:56:45Z",
+  "generated_at_ist": "22 Nov 2026, 03:26 PM IST",
   "sources": {
     "basket": {
       "status": "ok",
@@ -12,8 +12,8 @@
       "error": null
     },
     "news": {
-      "status": "partial",
-      "error": "cht: HTTP Error 429: Too Many Requests"
+      "status": "ok",
+      "error": null
     }
   }
 }
