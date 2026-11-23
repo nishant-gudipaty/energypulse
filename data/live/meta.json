@@ -1,7 +1,7 @@
 {
   "mode": "live",
-  "generated_at": "2026-11-23T13:38:06Z",
-  "generated_at_ist": "23 Nov 2026, 07:08 PM IST",
+  "generated_at": "2026-11-23T22:06:51Z",
+  "generated_at_ist": "24 Nov 2026, 03:37 AM IST",
   "sources": {
     "basket": {
       "status": "ok",
@@ -12,8 +12,8 @@
       "error": null
     },
     "news": {
-      "status": "partial",
-      "error": "india: HTTP Error 429: Too Many Requests"
+      "status": "ok",
+      "error": null
     }
   }
 }
