@@ -1,10 +1,10 @@
 {
   "mode": "live",
-  "generated_at": "2026-11-23T22:55:01Z",
-  "generated_at_ist": "24 Nov 2026, 04:25 AM IST",
+  "generated_at": "2026-11-24T12:39:58Z",
+  "generated_at_ist": "24 Nov 2026, 06:10 PM IST",
   "sources": {
     "basket": {
-      "status": "ok",
+      "status": "stale",
       "error": null
     },
     "markets": {
