@@ -1,7 +1,7 @@
 {
   "mode": "live",
   "status": "ok",
-  "checked_at": "2026-11-25T20:39:08Z",
+  "checked_at": "2026-11-26T11:07:48Z",
   "series": [
     {
       "id": "brent",
@@ -35,10 +35,6 @@
       },
       "status": "ok",
       "history": [
-        {
-          "date": "2025-10-21",
-          "usd": 87.97
-        },
         {
           "date": "2025-10-22",
           "usd": 88.42
