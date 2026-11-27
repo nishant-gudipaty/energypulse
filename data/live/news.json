@@ -1,7 +1,7 @@
 {
   "mode": "live",
-  "status": "partial",
-  "checked_at": "2026-11-27T19:31:31Z",
+  "status": "ok",
+  "checked_at": "2026-11-27T20:18:55Z",
   "categories": {
     "india": "India",
     "global": "Global",
@@ -27,6 +27,14 @@
       "category": "global"
     },
     {
+      "id": "2557163fe1ae",
+      "title": "HPCL Employees Complain Of Poor-Quality Food At Canteen",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOTd5bm84U1haM2VQTVBQQzducTNIOW1McGlOVFBWWjNYT2gtVGlxNTNOQTJTblJsR2YwSklYWFBDQ1hQMlFKWnZrcmVEU0xTcVJsUUJyZkhZQUpjOW51MmhJZzQxYkhtemZpdU15eFVqSDBwU2tDX1BOMmd4OXlpZzk5dGRfOUxnVGxzVE5FT1c0S3I5bkdHNVR1eFFtaWFfOWpXYm5RME44TDN2cXpUbGNXWHIzc19TVWhOeGwwRXpCVVRU0gHKAUFVX3lxTE5UV3dqWUtsNDdZbHVmWndqR0hlS1ZSdHJrMFZDMnp2cFREeUcxclBzYjhhWGFKVkFFQ2s5RmVFQWZSZFdULUZIdVFTR3gxZ0J0SVZEblVxX1R0Sndlb2ZTZEpEWWZqWHhPVDFzTDh1ZUo5eE1OUXlEazdlWVZwZEd5clNWVjEta2VRV0xFdDhBeW9Gd1pmZm1DYXBTcjlTRFZSbWZkbjk1R2dYcDk0Zm5qQ216TDB1ZGxDaGQ0d1NuMjBVQm1USTNlOUE?oc=5",
+      "source": "Deccan Chronicle",
+      "published": "2026-11-27T18:57:31Z",
+      "category": "india"
+    },
+    {
       "id": "c95f2fb0f05d",
       "title": "Natural Gas, WTI Oil, Brent Oil Forecasts – WTI Oil Pulls Back As Iraq Wants To Boost Production",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNT1B2VzZRaXpYNzZzTjdKUHhZRGdyOThKMVA1NzB5dFJWOFF5VnlMcUh0UG0zOUVqSEpGTkw3T1FSY0Fua2VlbklTT0FQaEM3WWFqcXBZZzdyUnpyemdMN3FUUnZsNXQ4ZmN1bHlLQ2dkYm9VQ2I0NFQ2WGMwWG9PNlVLZTVraDJnVkY2dEM0M2RqU1J6b211ZEN4dS1IMURadkR2ZnE4eTBGdG0wU2JSeGJ0LXpFdHR6bzItT2FmYXdNOUxOd29JTGd6anF1VXQ1QWlDQ19KRlpEUW8?oc=5",
@@ -41,6 +49,14 @@
       "source": "The American Bazaar",
       "published": "2026-11-27T18:53:15Z",
       "category": "global"
+    },
+    {
+      "id": "eb27705dcd46",
+      "title": "BPCL inaugurates new oil blending plant in Rasayani",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQd3FqSmoteFFxekVNdnhPbVBkUU82cUk3Q2g1eWFxZ2RIMFpscjRrVzY3ZWJPelNUR3cwRFFOMklkOTV1M2VGX21ISzRkYnJxbkkwV0tkUXYyMElPMk9GdnFkckx1V3RqTS1oaXJGSTRxZXdWVm5UWGxXM1liZ2xhYw?oc=5",
+      "source": "BigInfo.in",
+      "published": "2026-11-27T18:33:45Z",
+      "category": "india"
     },
     {
       "id": "2d2781831b3f",
@@ -72,6 +88,14 @@
       "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQUVRCem14QWJySGx3S1MxSXpBNGZ2Umo1cmpoc0FJWTJFRXFZQXZjVGZKTHB4bXBjYmFHZmNpSlZEWUFLWm5kTHJvYldDRUJhUS1qUkxndzJ5bUI5NDBEc2RYVEdoXzliT0ViQ01ZRlBQYlpzSnhzaUN0ck93WXZ4eHdzYkVaenRpYVJla1pidEJKZ1c4dmdmRUhwOG96a1pFemxlcFBTYXpUc1EzejFxU05haVhGOHNDeldsOHctNEZXUzRhdVFROHJXTV9VbTZ1dkJLcjZScDhjdm5hSzROeVV3cmVES25EQ1NnbmJlWXJwbEFJT3RScVFR0gH_AUFVX3lxTE5NUUNWc1I5WEhXM1RLcDRtNDkzeEJMZzFMNmYxaWJhNXVaaF83Z0FmUGw2TFVHREtPWl9HY2N3aGlIbjRtb25oWmFtQ1I3eTJnRmx5ZFZXTURLWHNEU3NnVFhvMVAwT3RwVzZyaVhuWkVqUnkyVk0wYTh2Sy11WVgtNi0xVEd5S2Jyb0lUUHVtZUFOX25QSmprMk1ZWlRaUzNteGFvVGM0b09uTnh4ejcyTTUxUXdpQmpmVnNkWEZpRDRPMGkyanJrRzYzOElZS3FfZG9oeHVSNnBnajZKNUhGOWQ1eVRIQ1JiMi1CQWdIMWJOQ0hyUmJHb1YxYnlmRQ?oc=5",
       "source": "The Times of India",
       "published": "2026-11-27T17:49:00Z",
+      "category": "india"
+    },
+    {
+      "id": "2beed11a6fdc",
+      "title": "BDT Approves ONGC Energy Centre Trust for Scientific Research Under Section 45",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQlZFckU1bVRlRkc1R3hCOUxURUlHeVVQdWlGd01IeU9HZ2NIcld0dVJrcW41aTNMdEk3QnYtcWQtQUgxMWk1SENhc3NUanB0QUZ5ZWN5Xzc0R3FDVUx2Ri04UFJjemtfWldWY3R2d19YelI4Ykh0NURXd2VtSnFUOTdpWk5pSVZ4ekoxRGZ6eTVnZnU3Szc2SktxOW5YZmFXZHdXM1Bn?oc=5",
+      "source": "TaxGuru",
+      "published": "2026-11-27T17:39:24Z",
       "category": "india"
     },
     {
@@ -123,10 +147,26 @@
       "category": "global"
     },
     {
+      "id": "30a6c81c62b4",
+      "title": "Karnataka government serves show-cause notice to IOCL terminal in Bengaluru over ethanol measurement discrepancies",
+      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQcXhRSDR4VVNNRnp2LWt2STkzYkc2ZWVwSy1mWUN3VUVsQjNPQWJXSGZseVRXRUtaaXJYdWMxYjJUSmJucVdwY1VsM2M3Q1Bpd1dYNDloTFI4bUMzeUFZdnI3a3Qxd253MXFvVVpzdlczY2plMWl6NkROd3ljc1dvNTJIZVQ4QnZhZm5CeG1wcFNXajVoVF9CTC1NbG1XTE1NTkpMVFBBRFJoR3VvSjVSWW44cjlLQlhCeHV3LXpMY2JjZWM2TnQ0TzR1ZHZmQW92cXlheW9WczdoNS1BUWhWTURVVkVBVklJZnk1MTV1Y3NYT0JGb2YwNjJURjREdlVYSFJkaWtQTnlJSnpxMHlQUtIBlwJBVV95cUxPaUpITTF0bDhmeEl1TnRPajJEcXR1dXlRU281LWdtLW5yTVBlamJablRvdFpZcm1KbkFSSG5tQ0ZmMS1MbEZUOUw1cUw2TENCZGtqSDBNekhValhaLWd5SzdkcTBlQnBEVXFtWE5INHY0UTN3UE5Sb3lzS3o3TjdDV2VKNW5QMFNtQ3ZORzVmWWl0WjJENnhvWE9GQTdSMVZwdmRZSE9obUMxV3luS2xBUnZicHE4bkltZTBXRXRONkFQRWxSRzhWTnJ0ZVh6bnd5OXhha2V1QmVOVldOcGRsRGVTdnlNeTJOa2g5QXdNclhRajlsLWRTX1Y2c1pPR3VfTzVITlItVnc5cWpOQzZxU2o2UFVlWlU?oc=5",
+      "source": "The Hindu",
+      "published": "2026-11-27T16:04:02Z",
+      "category": "india"
+    },
+    {
+      "id": "c816f0ee41d5",
+      "title": "Karnataka Issues Show-Cause Notice to IOCL Terminal in Bengaluru Over Ethanol, Motor Gasoline Measurement ...",
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQNkRrellHWUdvS2VwYXVhODZiVUhHREhRTC0zWGNwcHhvbnMtWUVsVGh2U1MyNHppX1NwR1VRaHBlc0FiWXBmSmdmbjU1QXhyYzZQcWxDSm95NE9JV3BxeWlzaW50U05CSWZPVG0tSl9Vbnd3NllBbzk3b2d1dFVjb2N6Z3BuQ2NhTEp1QmswRUY5TWNtSFdGNUdPMGo1dC1tb1lZNzF6ZkhaNnVLdlAtaEN4eWhFbng5MVJ1SThkMmNINWFMS3E5NWItaG9NRkdsN2M1UWkxVDdmTEFjTVlTSHdkRjFEUXZZN1NUX21nWXNwR3R3bnBMbzFLcUFRc0h0a0NzOVdvVEY4SnI5SG45c0tn0gGXAkFVX3lxTE5VQkVBWWZ3TGlFcGFvak5yTWNxTkFoNFROV2o3dVJXSFpuNGFiMHJGUEQ1b0V1clhObmhOUThWc3lGOFdMY3dHUVlXeDBYT21LUklCZGYxUnB4TGxIT0l6dTV1SDdaNmZVODl3T3NXSmVoNjhVSGszTUZxcVRaOW9aNEZDLVVKRmpqR3ExZl83MWZOdThCendPTmZsdXVoNG1mYWQxYWVoVWkxLVlPN1VLdE04TFpqVmhub0F0RExKTkJ3akQwei1tSFRtVVd4WF9RanltSzExUEhPMXplRDEwODFHUlhkV2Q4RjBya3VyWW9SdVVRc1B6XzdhSl9sMkk5c1FEdS1GUU9QUGpzNERNeVZSXzVmUQ?oc=5",
+      "source": "Deccan Chronicle",
+      "published": "2026-11-27T16:00:18Z",
+      "category": "india"
+    },
+    {
       "id": "c118ca8fd801",
       "title": "Iraq Talking to OPEC About Its Production Ceiling, Minister Says",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZlhOTmRNUnJnc20tNEFQN3FXY2NERWJWNGJWMllVd29jWktnRXVLNzJydFZvanE4OFRJX1NWSDkzMFBQTjgtendwelkyeFNHNGRCQW9FYkhkdHBKMlRwVjNyZkMzSXpadHJNNzhWZmhYM09nTHp4emhhWlJNOXRBd3MxVGxmeTdtNFduYVZWMUw1OE1sQlZPRmJ0czlyYm4tSXY3VXh6SG4wdkpnU1F4eUprTDk?oc=5",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "published": "2026-11-27T15:03:28Z",
       "category": "global"
     },
@@ -145,14 +185,6 @@
       "source": "India Today",
       "published": "2026-11-27T14:35:38Z",
       "category": "india"
-    },
-    {
-      "id": "eaab8ac14fef",
-      "title": "U.S. Encouraged Iraq and Venezuela to Leave OPEC, Sources Say",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNajhfVmttRkZVVS02V00zX1JYOG9CQUo4azVvMGxYYll6dmdNb0pnaVZJTTVLNE5xeGlQRXZYdDJjSGVZZF9Fc2JnNGpyUnh4Vjh2UWY3NHFHaGcwY3d2X0NSRWZIVXRyQnlFb1ZiaEp3eV9fZ1poOUJnS2RGQVdzX2loVk1xcjBkOG5SUzQ2ZVlBNkIwSnFPRFZpdEI0RGFzVnhHVjV4eVNneXNFZUZqTFVQUjc5cVIyOGlrSjVfWdIBxAFBVV95cUxOU2Y3UHFuNndTczdKUXhIRWxyTW5kTXZiSFhZdWU5bXZVOFFsa1NSdFlqNDBUTWRfaGJRWjB5OGFBVjV5ZG9ETkRWeEhxQy1oY18yZnlRRVQ3SFZ6SXRUMHgzNXZYZmp3M0dCRUpXZFp6S21JVW1nQlJfNUY5TlZWTE9aNnBGaF8tSElNTDI2azU3REZMT1ZGYkFyNUZiYkdReDEycXlScTNVamVRSVR0NHJtY2ZER3E0aldpVzVxTnlXUE5o?oc=5",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "published": "2026-11-27T14:30:00Z",
-      "category": "global"
     },
     {
       "id": "1bbb37331417",
@@ -187,6 +219,30 @@
       "category": "india"
     },
     {
+      "id": "32ae28f04ce0",
+      "title": "BPCL inaugurates Rs 100 crore lube oil blending plant in Maharashtra",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5zcG5yaW51aGhKbGpmVFlqbTZ3QTM0d3RKQlNFZ01sc2x5NU9VMjNvRFhnVTRWMWJYMzBhYl9ZbmlFb1hlVHZBTUl1MGlRNk5zQ1ItdVpLMDRIY21FQjQwVW5MaWZTcjNCaHd4YnhmeDE2SUZtRmJmaA?oc=5",
+      "source": "Manufacturing Today India",
+      "published": "2026-11-27T13:01:28Z",
+      "category": "india"
+    },
+    {
+      "id": "367d61d11d17",
+      "title": "Karnataka issues show-cause notice to IOC terminal over ethanol blending",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxON25JX0lvYnZ6bEJyNFJuanJXTk13MUhTUW5FY1pLbVMxbGVBREFBV3ZDdS1EaTZ3eWNicFg4Vk9iUWg1VjVuaEZIU2Izdllub1gwd0MydDRvOVBfUEhGZDA2YlN3M0dzVUdsR1hwM3pzcG1kNFJhcWxIcTRSZ2RJRURUZDNKZGZXTWJ3bEs3bDRDb0FNTXJ1X0FDV0prdVptNXNZcFZDRmF4VmNyVW9MalY3U0w0d1ZidWVxWE81eHhEOEFTN0lmVk53ai1EN21MSTdCUHpuUnXSAd4BQVVfeXFMT2dqRk83NERmLVdsVXFUWjFqLUk5UFBCM2k4MFhsLVlNdFVRWVZkY0lNVXlsOGtxaTRsbjdIRlgzT3Mxajc3cHQ3LWxaekJzMm5odWxhb1RnZG1hNXZQOVFPOFdsMktJandxU1lIRjRwSEk0a2cwbVhqYkw1NE1oOV9sR1prTW8weWRKek1WbjVmUlZaYTRZVTdJc1RaVFoyaHE1d2ZZRlg2SHBtYnpUWWlxSmt2ZG5HV1NfOC05ck82MVl3Z1FNVTZSZmpQd1VHb3M5UVh1S1dJMXN4dHFR?oc=5",
+      "source": "Business Standard",
+      "published": "2026-11-27T12:37:53Z",
+      "category": "india"
+    },
+    {
+      "id": "fc8766bf8eef",
+      "title": "Karnataka issues notice to IOCL over ethanol measurement discrepancies at Bengaluru terminal",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQVWY3TnhKejdrYy1BcXdNZWozRUc1MVRXdzZ3Q184YWlDemlnTnA3V3cxSHJhSFozUlg2ZmEtd2IyLWVRbGgzaUQ1cUhXbnREb1U0OFR3elU3VGZSNGh6cGc0cTJBbzlDYUYtdlZSYTRFMlUtVG9MV0JWQjZVWmRKeWgxbDg3S29GRW1FRWg4ZV9jR054dGowSU12VHkxTDF4U1p5OHVGV1hBS2NhV1dOM0VZNWtQRDBjS0tFLU9PeVlGcnI2cUtDVnlLVUdPZjZYVTd2aWRtWnpaUHgyR09iRjlVVnNzSmUxWE5iSHp0dEY5TEFVRGhDbHVRWjHSAYMCQVVfeXFMTnp0R0tMVG0ycHU0Nm9sTlBvdEN0MWZEYnFYUnlLRGFkOENyTl9fcGhmdWFFTTcxZGpDdndVVmdaZkNMRllvYk81TWx0TG5ua2Itb3FqVktMdlI4VmIxWElqNFZTOU9LaE9wN1g0NHNLRF9kSzBhTkd3MlN1UkhVZ2FtdzJCU2p4YUtKdjd1ZURCUEVnblFJREhJZTd2d1dtRV9KeEVlM2cybjcteHJ0Tlh5VFJYNklqTG9SRjBIZ1lqZzhBQ2x2VE5pcGV3UWRxTjA5RTZpZEdLN0dKcVlvUC13ZUJuMjdyN0VvUTVHLTFOc3Nwa3JudndaNy1zRWI1Tk5CYw?oc=5",
+      "source": "BusinessLine",
+      "published": "2026-11-27T12:28:15Z",
+      "category": "india"
+    },
+    {
       "id": "802ea8f7d4ed",
       "title": "Indian Stocks Trade Mixed as Rupee Weakens and Oil Prices Rise",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPR0NKaXJEWnZ4ejY2ZlRNcG9LTG12SHdETTlqcl9YbElSaUszNzZnUzNiVFpDdjdJSmVUTUNXanpBMDZ6by1uUUN1aks1aVpWRFZSOUl2XzVETjFwUGZPVTVqU1BCa2RkNjhzenlHbzd3WklZUVNGVjJVSUttYUYybmpRS0ZVWHExeGxtVnBEVWczVzJZNURCcU5qQVpxblRIUXcwaDNkMnhaWmc0LU9zOU42UWEycUlMZlE?oc=5",
@@ -201,14 +257,6 @@
       "source": "The Economic Times",
       "published": "2026-11-27T12:24:00Z",
       "category": "global"
-    },
-    {
-      "id": "d0ad1f27fdb6",
-      "title": "Trump backs Iraqi PM's crackdown on oil smuggling, risking clash with Iran allies",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQYTlmM1dhbkJHcl8xZmtUNzJRNUpwNURNT0lSVzA4NDhzU1haRERKT183dEd3REd2cEptU3VKTl9iSnMtWFdMUWM1SUdSQkNVYW9LVEdMc045cU1ndktuNkxzbjJrcXRZQWJKMXdpbGIwRlZNUHpLRlpDbURnWG5ja1dWeW00Uzl2NnNDMVc5NDZsaGliVVZnaXowbWxsZDdmOVFoMUlteGM1NTZxclR6M1gzTFV3ZHBWYmZYc0s2S091RkdjSUJZYTZzbmJQNVI1Nl9NVnhhQWp3VHI3SDNsRmJkTHUxdW93TlE0cWxUODPSAfYBQVVfeXFMTnBjdHRBdmNHclZDSHc5a2hsYnF2S21keE9WdzFUeFM3VW9XeGsxVTRSVjE4RUpvOUE0Mk10VXpwc2JWUWttNF9yVUttYnIyc0tDVWVDdExGYndsVHRBTDVTUVRXZ0kzS3NpODZaSUpYRkxiU21kdFJGOHpYajlsNV94MFU2WHJ1bEZOeE82MlVFUWpDYkdYWS1oUmtGcmt5TUYtTDY4S2tzdGxxeF9GTHZEUmYzR2FLeEhGemVINXM1ODJtdTRHcVhmSzhLaDNOdjJVQlN4a0dmb2U1STJVZWl5RlRoTExNLXBCeE9GYllYREJ4UVBR?oc=5",
-      "source": "The Times of India",
-      "published": "2026-11-27T12:21:00Z",
-      "category": "india"
     },
     {
       "id": "237ee0ad490b",
@@ -227,6 +275,14 @@
       "category": "india"
     },
     {
+      "id": "e97ec6d78278",
+      "title": "BPCL commissions integrated lube blending plant, base oil terminal in Maha",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNT1FXYlFRYUh4RGMwR3h3V1pCcHRSYnM3d2J2OWg3R2FWNEZJaGtCdzdLc25Hc0ZVdXpCRUFRd0IxdmdUVjVEQV9jNld3UldpYlU5T1dvbkxQdktzZHB3RHNtUzNNRnpqTGF0X3ZOdXpHWnJyM1AzX3JrME9MRml2eWxTQ2F3b2xNSXhLRUFXRk9pLTVCb0ZZTEFDckVJWlhmY2ExWFBtS19iNzVheUJ4bkpMbk9kNTdaM252ZWJhZGllcVVmb3ZyNlg1cnV0czRBWHVqUU05RHBkQdIB3wFBVV95cUxPS2dmTGdYVGFiRUlFRC1hYUpvSEYwWnR1d3dTTmVHTHBkTGREZmEyRWN6NGRxNWxlazRnRG5HUWtvUk1oLWpBVmt1b2JuX05XVXo0aEF2ckk2QUhWak13TmRIYVR4NEp6VXl6aWN5cEtYc2RaRllONEZSeGZyWEdfRDhDcVpiQW5FNE1HQXU1b3dFeVBNcVl0eWo3OGtYR1owbWZWS0x0QkprYnBnWjlXbFQ0WFZNS3N3Wi0xTVM2bXItd1pzaHpSbzltS29jREM1NnA0WmFTczREYkFtekpn?oc=5",
+      "source": "Business Standard",
+      "published": "2026-11-27T11:39:18Z",
+      "category": "india"
+    },
+    {
       "id": "8d53c3fe8ff8",
       "title": "Brent Heads for 1st Weekly Gain in 5 Weeks",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa1JPOXpWeURqdlN5NUZ3TG1YWU5TcWJuRnJVZVB0by12bGhWRFRPOEtMZ29vNXVPYnNUOWJGM3Izd01PNlE4M0NEWHdHMjBGeEZocFBPQXpKRDVRNjY5blR6dlZFcFRhbk5jRVJsZjktaFR0Zk11elgtSF9aTzlMOEtUTEVkS3kyQTZhYmdjVUVYYmFMN1ZsQ05YRktEdUc1?oc=5",
@@ -235,11 +291,11 @@
       "category": "global"
     },
     {
-      "id": "28c69dc78e0b",
-      "title": "High energy prices cost India an extra ₹6-7 trn annually: Tarun Kapoor",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSmhjQ3l5SGVvRDJybFpMa3BDWktiYkdueDk2QkxmelpiTzB6d05SWmxrckJTTk5MMV8tLVEzb1ZRUTZhc1BoZ2J2UHc5V2pHaTI2YUl3UEoyTnVwWmV1YVBkNGhoZW5RTmRkZ1VrNF9nYWw4UVVoNWVoRXFDM3drd1JoRjlISkNvMmVnaU9KVklJVFI2dlBSdHg1NDVXMGpCSmpLWjBzbVI5ZWZnXzdZVWVQOGRsdzduNDFGTXEwLW9hOGplMjVHUm83RXhJVHBK0gHWAUFVX3lxTE03WjRaTlpodW53ZDRpQl9jSFdaUndqOUdkVURhSmw0T0pjV0JFc0JlV3RLRHo5RFdZb1BxcmlEcGZ3Qmd5dVVWb1BlUXNLazhSUzFheWhsQ2pyT2tKX2tXdWtLY0NJNDRxbzdxYWc3VTROTHd3OURiZlhMel9mUGlkWEtjZEhMclBzOGtLUE5DVkRtcWpWbm5VZGpUMWxCUVd1LTQ0NFY1Zkd0R2N6RnktVktYYldwem01WDZ4OVFXRHVZTXJXRkptSW15YUlkOFNKMXZ2Q3c?oc=5",
-      "source": "Business Standard",
-      "published": "2026-11-27T11:16:47Z",
+      "id": "3068b3bb54fd",
+      "title": "Petrochemical News - Indian Oil plans to nearly triple PP copolymer capacity to 1 million mt/year by 2028",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CNUhVdmlnZUZjZllzNG5RVGMtSlltMEdIMGhqRkl4Q0FIUXhVcm5qUktiTENlRlNaZkJuY2xvMURIc3h3LWFCUzl5RTM1Y0ptMU1JejVkS1ZGWWhqMmxB?oc=5",
+      "source": "Polymerupdate",
+      "published": "2026-11-27T11:14:41Z",
       "category": "india"
     },
     {
@@ -248,6 +304,14 @@
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSUZEcnpERGtKOFR2VFEtYmJucU53V3ViZjJjZVhZdmZON0xuZEhQbDU4S0UtekVsWF9TVFJoYmR4U3pOU1FGSmF2WWMzZ1oyN0ktd0RsMWdBWGp0YzY3UWJyNjZ4b3JYMUxTZl9BWUlmUG1BVDlWcDhVdUFtZFpVQ1dZY3ctVFhHTGJZ?oc=5",
       "source": "Hindusthan Samachar English",
       "published": "2026-11-27T11:09:53Z",
+      "category": "india"
+    },
+    {
+      "id": "563715c23caf",
+      "title": "Karnataka steps up scrutiny of oil terminals amid E20 row, finds fuel measurement discrepancies at IOCL facility",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQRTVHVDN5N0wwdE5QaVdydkczRWZBaUwtbjZFUkV2Q0lTMjNHQmpqU08xY1NHV3gyTTI0a1VRVS0tOTZDcW40dFlVRlZ2cWpjSW80Nkt6U3F1bmxHcXpDWjZpT1F3bHN4a3VsQ2JtVVhRbnlfUkZnMFUwUllGTEYzWkczYW1WNHY5RlRrLVNIUy1YemdlY1hTOWk5MENiZXRQNEhfaHBYSEZtRXJFWjVFQkMzREcwUlY4enp0M3VWRTY1SkRmeF9lem1qLWNwcm5kOHdaU3hxUlZ1S3RpaENudlFhRGdVU01Wc1RKMlZ6VFRKaTJiNGI0bA?oc=5",
+      "source": "Moneycontrol.com",
+      "published": "2026-11-27T11:00:22Z",
       "category": "india"
     },
     {
@@ -275,6 +339,14 @@
       "category": "india"
     },
     {
+      "id": "8c13918d15c6",
+      "title": "Punjab Police beat CAG Delhi 3-1 in Pool-C match at 43rd Indian Oil Servo Surjit Hockey Tournament",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNklHcVFHRVg1NHBWeXNBaHkxMkNqWTVLY2dRWERLdlA0YnRmYnk3X2pzTVhGeUtfOG1SdTNFNWZoUV9USnYyNno5cHBNT1JSM1d1OUhnWGxxaE90UzBQdDRyVGNsS3VUZmoxRGlWMHZ4MWlDRy1oRlhuUVoyT1UwMzkxTFJldzVubndKV1dEcGZSdnhXV3p5MWN2akxwd0FrWXRqQVlabEt2OUx5WTZhNjZ6VTRQYlZnYk1JVF8zTEZwQQ?oc=5",
+      "source": "News On AIR",
+      "published": "2026-11-27T10:22:27Z",
+      "category": "india"
+    },
+    {
       "id": "ed2638a26246",
       "title": "Brent climbs amid intensifying Middle East tensions",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOa3BtdE94c2I4SWxYN1pHbkFJOHVnMTltSk5WMjRnenNRTV9rTTh0VXpXUmlpVXhhNVBiWEFYa0VwLW1IRmEwRjQzb29YeTM1UGNENUpELTYzVjB6aXVMRy1wOXNiLTM1dE5oR2RXbXRLb25kd0xJZFF1TmtTblg2dE5tVVQwaVFVVmpaSlRhMXI?oc=5",
@@ -291,12 +363,36 @@
       "category": "india"
     },
     {
+      "id": "b3a0a617f6da",
+      "title": "BPCL inaugurates new lube oil blending plant, base oil terminal in Maharashtra",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdnk1anY4emJzNVdKc2dvTENMcVROYjZBQWZVRnNSMFZja1BSUEJVRUxUX0FjYkpqbGItbEtDSnJtT0ZKb3FoUHhjVENvZ1RYMnVDeUIzOC1pTU9mZWEyUzNTOTJuV1QtSnpURUxoRlFFaXpSbXkyNjV5Vmh1QjBQT01LdGN2MzhqdHRTMlFseTd4cXNVMVJDeE40SVNvTXh4RGM5TC1FN0xGYkY3S1JCTTdVQk1iTWROaWpmMnl1cVlGTV9GazF3bDRUMllaTzJOMGpfYjB6SWJxd2tkTUlvbzNn0gHnAUFVX3lxTE96OGVRQnU2TDh0eUg5UkhrN0xQLWV0VzdjN1dNMl9pWkp0b3l2NExES2xUdGFrNUtURXlZRVVaVFdqckNhc1k0RUZySHlWdC1tMkJwazRqWDJrS2x4SXhFLXNDNV9Fck1oSlEyQVktWE82ay1hTW5GajV2dUVhS2g4SEcyOEdBT2hQQW0tZ2NQdXNWLUhsVlJKclotbkRzVWdhcXRoR0Z2cnIwM0s3U1VXSGtrNXJLXzVFU2IyU3lvd3lYbjkwd01adi1QTlg5OEFlaUU4cUR1LWJPZkZiNFd2ZlE4aC1zQQ?oc=5",
+      "source": "ET EnergyWorld",
+      "published": "2026-11-27T10:06:59Z",
+      "category": "india"
+    },
+    {
+      "id": "96ed65b44767",
+      "title": "BPCL inaugurates new Lube Oil blending plant and Base Oil terminal at Rasayani",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRTl0ZGNYOU5IZEJHaS02czdXNDFYR3hwWG4yOGFpNDN5V0lkOXQ4S0V5VHJIX1NQVnV6SF91ZHRYeXdTazM5M3ZiTnVZOFJpb1FMaGprdFNNODVES3d1OURsa3BMeGwwcWxmV3dZY000R21XVlpXTzZyUWdoZ25QYm9QOTBSUGJGMnBjMTl6eGlHMTFkcnNhTnNTWFp5MTJ3TzZYelh3Z2xFZDR0M3hGX2R5UWtMQlZSeTU5ZW5lVUhsT2p6eFplblZwdzlXS2fSAdYBQVVfeXFMUGFoYndvenotR2tJMTA5R1BYZEhxalhMMkhRNmY5akoyVWZmNnRFalVUbG9HUFlCOUV3T2QtZEhPeEdIQzFHc015cVYxWDJQelF5bnJ3MHVDWjU2dzJ4ZHV0WlF1VjU1RjlqNEMxWG9JSzV6R01DejAyamVfSTZuX3A2T3pSbzcwSnZoUTRYemw2amEtalVlVmZRc21fa0JIdHFqQTNhaW5UWVcxRkdtd0FncW1EMVlDYnl2VDJ3X1JHRzBvTks1eGhCQ2NEbjdUVE9VOGpVQQ?oc=5",
+      "source": "Indian Chemical News",
+      "published": "2026-11-27T09:40:54Z",
+      "category": "india"
+    },
+    {
       "id": "d0169b1d0ff5",
       "title": "Will Brent crude oil price extend gains amid ongoing buyer support?",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY0c3a1JCLUROYU1DQXJhUVNqRldzMkJfZzVyZ25Hd2FTYTAybXF4LTFmeXJ5dE9jQXNhS2lXakhReUR5N1VvT3AxaTJvbURLUUVyQXpHR0JITktDcVJFZGI5M2hqWEplQ3N5YmpOaTU5NWE0LUNMWGxoT3BDY2JvNEhqOXVHZ2dnaVNwMFQ4ZFV4RDQ?oc=5",
       "source": "Traders Union",
       "published": "2026-11-27T09:19:27Z",
       "category": "global"
+    },
+    {
+      "id": "da5b2ea1abb7",
+      "title": "Marine Services wins ₹120 crore ONGC vessel chartering contract for 3 years",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMDJDbEhZNHRLbHB2bTFGZW1TaGVEQmFXeGR2Z3hrWkJUcHdOT3dQWjBWUEF3NXUxM21OMjFzdlBTU0RoTXdYMGpzYUpDa0RoYzhlZUlXVWUzbDBkLVItTDBOLVI5ekRxN2tGaGhGRDBkZ1M5Vm5WNXhMRzJDWjROM0lDa3d6UmtWUEZzVzVGcGxzMjA1bDA2VFMxZzFXNDkzcUpadmZB?oc=5",
+      "source": "FlipItMoney",
+      "published": "2026-11-27T09:13:16Z",
+      "category": "india"
     },
     {
       "id": "fddc3877eb23",
@@ -307,11 +403,19 @@
       "category": "global"
     },
     {
-      "id": "7f3b84403e62",
-      "title": "ASSOCHAM Hosts India Energy Sovereignty Summit to Discuss Energy Security",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNemM1VjhZMVRSaVdfalhJYTI5R2hJWDRTSDRJN0IxcDlVZkVLMWZITm9GTEFfWmE4WE9IT3p0dmc4LWFJaTF2emhOTzZrajZmb2ZrVFVMeVFoaWRmMC1qU2RabmpxUUJkei00b0RXWmVhNVNPeTBxcWdrTnBsY3lDVW1WNHhUZXBzaTVUWTkwT0RXSGY1cGVmNFUzR2tHZE5JRjBxVnhUSUJvUW8?oc=5",
-      "source": "Energetica India Magazine",
-      "published": "2026-11-27T08:54:28Z",
+      "id": "546acf6847ae",
+      "title": "IndiGo, BPCL, Asian Paints, CEAT: Oil-linked stocks mixed as crude prices rise over $97/barrel",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSnozamxpb2dlOG5nNWNuWkRXMVZuVk5fNU9nRFVSWVJPTnlYXy1CV3ZPakFFYzcyd3JGLTRLbVlhc3FwUnQ4V1FVeXZoVUZFMDJoeDQ4d3h4UjQzMVdERjg1Qkl0UWx6OHdjUDFoVU00LVM0UTBBeUdndTYtaURHaFY1MTl0WVBSUUxxUkI3aUdyOGFyYWVtc2EwYWJodE13QUcwYUFSRmhYdnpXQ0RJR3pzeGF5bHR4OXlzam9UY0FLWVVCbW9DYTg5dHlpbmp3ZjY4b09xbXVKYWdpTVhjTHA0aw?oc=5",
+      "source": "Upstox",
+      "published": "2026-11-27T07:48:50Z",
+      "category": "india"
+    },
+    {
+      "id": "5a6a8fb5c341",
+      "title": "Indonesia Palm Oil Tenders Stall on Weak Demand and Tight Supply",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaU0tNUNSc2VkNWRHTGpkWF9TZTdpOVA0MXEzVExSeUhWMHlJZzBUXzFxNHQ4T0E5em02eV9oamRPWGl0M0Mwd3RKaTFMRWlQZGlOQ2FUUGE4dVhYOXpMZWR3azBRQ3NucVpKMF9nTU4wSERqWnpGdldZeTdjdENvbDRaRUV1ajVYYUhBalp6Y1VJb3o0UHExSDdHSnpYTy15Z1J0ZnhQNzIyRXJZUC1sR2pRd3ZzUQ?oc=5",
+      "source": "Bloomberg",
+      "published": "2026-11-27T07:36:00Z",
       "category": "india"
     },
     {
@@ -323,11 +427,19 @@
       "category": "india"
     },
     {
-      "id": "fd009e70588a",
-      "title": "India bonds decline ahead of fresh debt sale as elevated oil prices fan inflation worries",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQclVrTWdBbDZpTFl2eEoxRnFuNHZJcWdMc3d6Q2Y0b21ENllZcVYwRkhzVUMzSlZ1eGVBSUFITC1hX2w4OWFadDJ2T3BOYTVtRmV0VlhlNmEwcGg2bXYtMWlkMHFpZy02aUg2NUE3LU5LSVl1T1BkMFpJNG45Q2diaVVFNnhCQTkzeUFMV0ZxeHNmeHFGVTd6bWpfX2NSQThfR0huNm1LSlB1NC1tbzk3VXF2b0hEZWxrS2RTS2VfNEpFTG03ZlpTdzBqT2FxSVhVbUhqdzgySERCaTVGaXhWc3pleVoyNElXTlHSAeoBQVVfeXFMUHJVa01nQWw2aUxZdnhKMUZxbjR2SXFnTHN3ekNmNG9tRDZZWXFWMEZIc1VDM0pWdXhlQUlBSEwtYV9sODlhWnQydk9wTmE1bUZldFZYZTZhMHBoNm12LTFpZDBxaWctNmlINjVBNy1OS0lZdU9QZDBaSTRuOUNnYmlVRTZ4QkE5M3lBTFdGcXhzZnhxRlU3em1qX19jUkE4X0dIbjZtS0pQdTQtbW85N1Vxdm9IRGVsa0tkU0tlXzRKRUxtN2ZaU3cwak9hcUlYVW1Ianc4MkhEQmk1Rml4VnN6ZXlaMjRJV05R?oc=5",
-      "source": "bfsi.economictimes.indiatimes.com",
-      "published": "2026-11-27T06:16:14Z",
+      "id": "83cb9e73778e",
+      "title": "E20 petrol meets prescribed quality standards, 893 samples across 27 states and UTs compliant: Ministry",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQlBlWXpsbzNybTBvbkU2dTEyY29MZ0VZSDYxU1A0VHNIRjE5UlZ5UlV2M016eGlad0RsQ1p0cnNXV240RTg0SkNNV19JUUhOS2M2UVRVZEN2LVc0Q1ZhVkQ2LUNYOWFTYlhEaGJUcFlLQXBDUzZHTXFtc1RHcmZoT0lHckdlWWV1MEVjS0IzaE5URTRURktQb2cwNEZhT2p2ZkJualNQbF9wR0dNNXlGOWlfSFZPVmZzaW5PQ3ltQ1FDdFNYa3c?oc=5",
+      "source": "DD News",
+      "published": "2026-11-27T06:43:27Z",
+      "category": "india"
+    },
+    {
+      "id": "3d705aef4456",
+      "title": "India condemns Houthi attacks on Saudi oil installations",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTXBxZzRkR2dQdmcwYXFURmo4dEVBcFV0ZENGekw3X2cyc2ZoUFBBdFFaNmFXWnEybU1kT29ySl84Mm5qbW1XMGp3ZE5oWXhNZTVNR0dfQXRGV1JKd1phMU9DLWJsNjc5MnhtbFhNSVNsUUxvU2M1UWU4LVFmT3RuMjBqbjZabzlIUUE?oc=5",
+      "source": "DD News",
+      "published": "2026-11-27T06:32:00Z",
       "category": "india"
     },
     {
@@ -347,14 +459,6 @@
       "category": "india"
     },
     {
-      "id": "079f84bfe44d",
-      "title": "Oil on track to snap 3-week losing streak over supply fears",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVEh1dGVIYXNadWI2NmQtbERtUExGNXAwYmtCMjlMd1BnWVAxNldldzBmczdlVVl0alVNTk0xZllMdGUwMmJ2V0hHeGpjb0VtQll6VDZVb0NySkRrQ090empYZVJiYTBuNjdFb1pjRUFmSENmZ3JGUGNqbllpQjBVQjZJOTY2SU5IOFRsQ3BsZk80R250X2NwOWhhMk1EUGRoZXE3Q01HVm1aeWk3VHpxbThqblpNT0hPdUFpN3FfT0lJWXNwS2pBYXA3M1o2Z2_SAc8BQVVfeXFMTVRIdXRlSGFzWnViNjZkLWxEbVBMRjVwMGJrQjI5THdQZ1lQMTZXZXcwZnM3ZVVZdGpVTU5NMWZZTHRlMDJidldIR3hqY29FbUJZelQ2VW9DckpEa0NPdHpqWGVSYmEwbjY3RW9aY0VBZkhDZmdyRlBjam5ZaUIwVUI2STk2NklOSDhUbENwbGZPNEdudF9jcDloYTJNRFBkaGVxN0NNR1ZtWnlpN1R6cW04am5aTU9IT3VBaTdxX09JSVlzcEtqQWFwNzNaNmdv?oc=5",
-      "source": "ET EnergyWorld",
-      "published": "2026-11-27T05:25:36Z",
-      "category": "india"
-    },
-    {
       "id": "8eb62f45f950",
       "title": "Houthi missile strike on Aramco refinery in Saudi’s Jazan kills Nepali worker",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORUFzNkZiZlE4U25yN1hkUlN0THN3WDRDQmVIZE00bjdwUTV3OWRzdUM4X1ZEX3NFUG1ocjdzM2xkMlcyTHdJVTRKUjE3a2tOLVVubk8yQTF3T3p3ejNBblFnenY2dmc2MUZ4cUI2VGJSbE9QR3VxNU9qMWZhUl92N0dJUUdrY3hnaV9MZy1oZ2g4c1dVUnFDbTVBenA0bzBuMll4VlM0WXNFQXlDNl9XMy1WZUhKVnRrQlVLRjBNMjJrcnFadEYybHRNM2ROZ01peXFV0gHaAUFVX3lxTE9FMThkSW9vTUdHclJzMVB5MzFKYWd2ajQycnNRQnlZT0N0WkxXbWRVVktKX1Y3OEtiamRmMXNIT2tYY3d6SGV6NnEtRTFmUWNTRFZZWnhtTktid1MyOEV5dDBZUXFtbEd5YWhmSlFDNjg3OTRSYlZLQ0ZhYlNCdWwwNFlhT3dmUzRZU2h6Yk5fd0R4TUpTNnp5ZElfYnoydDQ0dzJ0T0RpVWpzVkF6Qm0xZmc1Q0hMalhqT2l0WE1zeWFKVFdvMWxMLTdTb2k3QWZCeE1aSGhHRGt3?oc=5",
@@ -368,6 +472,30 @@
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPSEpLTWdKR0w1VXpsSzBJdFRUTHhTSWx5eXpPazZ3NXVDcXI5eXhhOEpOXzhyQ3g5M3R1d2tZMkFKV0xxVWZzM2RRaDBmc3lXSVV1WEdMUV9jLUMzbUlPZjdBdUE0WWJKRmxMa2ItRGNCSkRPZ2VrMjJCN1FuNEhlVXZFNVNxWXhtREFKNFF6VjhiS1I2YUZyVnBkZDdZOTA0YjJpY08xMGZfbE94dHhMTFVWSHcxVndNMk1Manpaa2d4YW1JT1k3ZFBuNWgtbmtjckFIbnVJdEY5NHZjSEgyRlVVeVVFRGY4QjJr0gHyAUFVX3lxTFBILUZyTFN3Vl8yYnpJQnBRbVZHT1JPc2lxeXc2VlA5OUJvSVVlV3dPbmpFS2JNbHNRVC1rX0ZsdHJXbjlSSXpncGlmcWJUel8zaXA0eW5hRkpnYW9rZzMxOENCNjd4S0RubkxxNUFZVm9idkUwNUZzR3BrUFVFYW5TSGFMbW50RUVzV2tJWEJYU3VTbDlGb2xqTC1OSEllcTFycVdGQVRqWWFLNUVIZlJsUWNlT21pTmxVZWVjaWY0cUQ3WjhIdy1WbmJJMmNxcFlPV0JsN1M4blJsWGI0c1lUX19acmVYSGdhYnRBMUxBZ05n?oc=5",
       "source": "BusinessLine",
       "published": "2026-11-27T04:52:08Z",
+      "category": "india"
+    },
+    {
+      "id": "fd009e70588a",
+      "title": "India bonds decline ahead of fresh debt sale as elevated oil prices fan inflation worries",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPTUlRQUZTU3RSbHM0TGxNcU1DLUNuLTNXV1BOTmZ6RmlkNURpSGRmUzMtWlMwRG1qaXB0QnhlLU5hek1BZkJQdmdLVmlYNzF6MmtZQnk3M20tVmFoRF9PWC1TVWR5ajRqbjZ5dFdhYzFQQU5TTkloRW05ZHJFM1BUblJESVBiaWctbDBCYXFoX1d5dmZrRktlNDNLNW1hcTdUanNWaVpMYUZoay1RcV8wNUFyaDFKbDNWLW4zdzZpcUczaVZkUG1IcDFMSmJBRWtkWFRaWWQ5NTBudXR1STJYY0dsYW1KaExqS1AyQUNiRXQ?oc=5",
+      "source": "TradingView",
+      "published": "2026-11-27T04:38:00Z",
+      "category": "india"
+    },
+    {
+      "id": "1e286aaae6d3",
+      "title": "The Indian Rupee’s Rally Faces A Fresh Oil Test",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV3FWVEx4ZmZxR1dmempPRGhOX3NBOWp6MFh0SHVQSV82b3lJaXFqaHdxWHVjYUExTjFicktZY09RY1k1cVQ5OWN3NHZ4Yk5PbGtYVnBaanBITmVMaVpSWjBiVUdqdk5jT2JZc21rbUF1NmxfbHl2VGpwcFE3eGtucw?oc=5",
+      "source": "Finimize",
+      "published": "2026-11-27T03:58:12Z",
+      "category": "india"
+    },
+    {
+      "id": "99bc8eba68c3",
+      "title": "Karnataka Issues Show-Cause Notice To IOCL Over Petrol, Ethanol Measurement Discrepancies",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWGhnQktJYkVZUld2MnVKaFdnajJYZFlHNkw0UWdHbU96VnB0YjVPRjNQQUJ1QmVmN3g0Q3R3ZEg0Y1p1dTkwMmVJME1oaXhneV9PZXRCU0tIcHlfakpCVEZEeGdtM25IY0RjWElYQlRMUjJHWmJocDA5dVM0dVYyeV94V0JlVmlIYkNwQ0FlRWVwcVZrR3VXcmJDbFRVY2dHZl9EeldORzhYa1pINHdfUEh5R1p2bjFFVzF1bHJZaXNxTTZGZUJDY3MxSGE?oc=5",
+      "source": "BW Businessworld",
+      "published": "2026-11-27T03:30:05Z",
       "category": "india"
     },
     {
@@ -395,11 +523,35 @@
       "category": "india"
     },
     {
+      "id": "5a022e49b153",
+      "title": "Oil on track for first weekly gain in November on supply fears",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTzVQVzE5aGdzbGVhNEUtVl94M0V3RjN5Rks4UDU0U0plazFDcjFnUTBMMHBvdk9BRzFaVHljSXk1ZFdzSjlRTVRXNGZ0cnRyUWRRbFJaRjBsVWNFbDZqSnQ0cHo0TW5fRDlwMWlKWDI3V2ROcnlXczVET1RqSXR6UGtZSTZ0OTQtY1YwaG1yYTRwQnZ6TW43azNGNTFqMmpkNFhtbVJwRnVkVERhR1NnSlFIMzExZw?oc=5",
+      "source": "Reuters",
+      "published": "2026-11-27T01:55:00Z",
+      "category": "global"
+    },
+    {
+      "id": "4cf2a43b2ca0",
+      "title": "Sea-to-scrap racket: How a traditonal fisherman looted ONGC of crores",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSjI4cTF3WDVJWWhfZU5neTFqa1A3UC1Ock5nSk1wUWNkYTVIQi1GNmNmMUtOT1c5Q0pIMWpUZ2JuSXVpeWZrV1h4RTlERGVyMFRPZGRsSHZfdWRKU3VoVFFhM2lDd2lLSUhHeTBwNE81NlFZNlNESkllNE0wR1l3dXVrLVl4cDBCNGlsWXZlS1hLRktpZ2d3cklhM0tYcVJkS0I3NXFWUkp2TWJMWDhrS0xR?oc=5",
+      "source": "Mumbai Mirror",
+      "published": "2026-11-26T22:35:38Z",
+      "category": "india"
+    },
+    {
       "id": "a0119acc68be",
       "title": "1 killed, several injured as Houthi projectile strikes Saudi oil refinery",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLUpuWXVkVml1ODByTm9ubW5Falc3NTR2OE93SzdhdHM5bGNXRGgzTHBNaU5oTTBHOEN3WlBwaUxYWURBSGlkN2ZyNnhzOTA3dGtDMTdpS0YyY3JrSlBGbHJoaVVQNGVCbHVPaGdvX3NzYTVMSzFsNG45ZVFHYjBKLU9US0thUWZ0cmd0LThld01GUEI2UG5iRDZ3Y0ZVUndSRmN4UEtqWU8yYTdBZnVSUjRYXzZwY3BYejdPVtIBwgFBVV95cUxPc2JFUjZubXp0MVZ2STNWWjJsdGZvczVpVHlEc3IxUnJ6cGNxNmI5X1FfcTBad1ozeWxxTkZoc05vRmo5VURXNkdTOThXVmR3WXZzMHVuYWQ0MHBqVTdNN3dtQnJ3dHRyQXl5QXF2al9rWk1rU0V6UXRfNmI2eXp5UHliX2UxeWE5eWg5eHhyeW8tOXhXaUpKaU9kSUx5ZWY0SXBWbzVJaXM5a0tGWGZtdnNwWkFaaGZDR1loSldlWFhQdw?oc=5",
       "source": "India Today",
       "published": "2026-11-26T22:34:00Z",
+      "category": "india"
+    },
+    {
+      "id": "cb72a9bf90f3",
+      "title": "ABS Marine Services Limited Wins ₹120.14 Crore ONGC Charter",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYmJZZnFlWUZJN2hNc1BvVldFOFpjUXRrVExQbzlDbWc4aWpiNTFnc2RiRmZfTmVIX2VTUW5rV29nbGJ3bXlGb2ZwNGtoaFowUU9IOTZkcVZ4TmZEOW5pZVhaZUZhaHpEOHBJNTdUNVZoTUVQcEFEa1FuUk0yT0FtZHotUURCbjJ3ampiTEhGQ3VxbG9LWGU0ZGFGa081WWNwdEJtSFMtTQ?oc=5",
+      "source": "Multibagg AI",
+      "published": "2026-11-26T22:32:54Z",
       "category": "india"
     },
     {
@@ -419,19 +571,19 @@
       "category": "safety"
     },
     {
-      "id": "7895eae9a850",
-      "title": "Bangchak shuts its Phra Khanong refinery after a fire in Bangkok",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWkJJZ20tNjIxTV81OWs0cF84c3ZfVXlSbmVRRGZsNURXem5CdWMzQ1R0bzlhOHoxbkRHQkFjZjRDallKWWVQU0NrT0JNVnhGTkxCOEdzZUx3cHg3ajg4T1drVUk2XzhtZXFwN2hIWmg0RlNRU2ZadHNQakdYdW50cUFWaTluQ2txWGNGMC1xRmNLREZP?oc=5",
-      "source": "energynews.pro",
-      "published": "2026-11-26T14:03:38Z",
-      "category": "safety"
-    },
-    {
       "id": "f8a802413a54",
       "title": "An explosion and a major fire broke out at the Bangchak oil refinery in Bangkok",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WdXp3WHRINEo0bG5tc0taQk82WFdiNkotTnVtSTlSOUlCS3M2RnprVWZyc3cydThFVnNyNkd0bUlrUklOSmxXZFdRVEI2S2NRRy1wUkhjZG10QzJkNlYyU0Fva0tDYjh2M2cycEJoSjJjX085Rmo5TUl0bFFJZWc?oc=5",
       "source": "UkrMedia News",
       "published": "2026-11-26T13:53:39Z",
+      "category": "safety"
+    },
+    {
+      "id": "2991c8789fd1",
+      "title": "Nine injured in explosion at oil facility in Thailand’s Bangkok",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZWNWUWFfMnZSdENxR0VlSFJrYW4tSmkwSzE4ampGZlNwUkxBdEYwcXZha0dKbzJmRFEyT0hnUFFCbGVWWldGMHd3d3ZGejl1UklVYWhxRExSZGhGNEtPZWQtaFVwa19OcHRfQjFHalBmaHQ0dEE1YTdka2hpOWJ6V3pNdUowdGc2R3Bsbmd2eUxYd3MycUZESVd6b9IBoAFBVV95cUxPVWVRdXdlLVZtNTRUZnp0XzlBaS0yb1lHSFBZV01BbXNCajBVVmxqdEJqX3hEc3JicFdWcFZpWk5aODlnNE9RdjNWcGVvSjFINlZXXzBKZ3NrclpkVEZMNG1UakFmd3U3SFIxQUE5OER4MTdjTC1YSEJCOE5yamhodFJmX1I2aEU5TFE4WmtxZ3c1cTdGSWJQM3VqNTN6YXds?oc=5",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T13:48:16Z",
       "category": "safety"
     },
     {
@@ -443,6 +595,14 @@
       "category": "safety"
     },
     {
+      "id": "6d0b91cee301",
+      "title": "Nine injured in Bangkok oil refinery explosion; operations halted",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRkIycHowMDVDME5weWRXZFltSlloSFUwTnlZOFBSYm9BMUxXOHhvV3hBNWl0dTRiVnBuU1NFMkppT3ZPZThjUXdYQ2ZxQnprYklwXzF0eW1zWFFFb00tcHc5N1JYMC13cFZrclRjeS1QYlFRQlVkUGcxVzY1TWRFNEpUa0tMZlhBcG5aTWozN0FFMnZmSUHSAaMBQVVfeXFMTW9tWkJNVUNZOTNGODY1WGkxUzVyUWpJZ2dySlVOZHFCZzlYRFJXQzBiZ2VzdVRsZjd3dHd3TzdPQllmSE1Ubm95UjNvRkFfd1FOTE5tUGowbF9RVkU0ai10cGVXbXZsUHYwVDY1LVBKSnhYLThFU2RJbkVaRno4b0loMjNxODMwUmZEbUZYWjdJNlJvaEFXSEQzaWs3ZVdwN0M0WQ?oc=5",
+      "source": "The Pioneer",
+      "published": "2026-11-26T13:15:44Z",
+      "category": "safety"
+    },
+    {
       "id": "b0cce9505379",
       "title": "Explosion at Bangkok oil refinery injures seven, four critically",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeFZ0dDA5dDJvcUp1T09KN1ZTS2JTMWZHSUpoZVQ0NWY4NnpwSmhsTWVCYjQ5bUJheXgxNkJvdXhjejVJZ05oYnRkVmdaQ2h1MVlJ?oc=5",
@@ -451,19 +611,19 @@
       "category": "safety"
     },
     {
+      "id": "5a0c423b271b",
+      "title": "Bharat Petroleum Corporation Limited (BPCL.BO) Seasonal returns chart",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3WGJ4Q29BdzVWYkxvUTB6dml5ajF5bG9aaUo0UWw0R0EtNXJ2cmtTREZhSGlKME1HRmJWam5fNVFaRWFNc3Naem5JRnV4a0lncFdWS2JCNmFEaGg0al9VSjFOV1l0dw?oc=5",
+      "source": "Yahoo Finance UK",
+      "published": "2026-11-26T12:47:33Z",
+      "category": "india"
+    },
+    {
       "id": "52d1563fad08",
       "title": "Thailand's Bangchak shuts all units at Bangkok refinery after fire, says 9 workers injured",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWlNPSnIxb2YwTEVOMjktMmk4V1YtVkU5MWFHQ1BwaWtPc194NllBSmdpRDg3Ykg2RVBFenJCLVF3QVBDS090c1RicHBscV9mQWRWOHdpVUk2ZlVLdWN4ajJJSVR3a1dzRF9walA2NTcwMW1SeFpNdDhFbzVGbVZadUY4QlBXbVpJZEpYMk5QMmFBMjdtWDdTdzh5OTN5ejdDVEdiSHNnQmh4TktwbnFhY3FqSzI?oc=5",
       "source": "Reuters",
       "published": "2026-11-26T12:35:19Z",
-      "category": "safety"
-    },
-    {
-      "id": "99eeee798859",
-      "title": "Residents can return after Bangchak refinery fire as Bangkok air checks continue",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFByRWN1YnBKV1hjcW1aMnJpdEVtWjk4aVp5SDFsMXU4OGVhbG1VZXdXbWNEeDVVbEtKM3hfY2hpTGFlNUZpNjRrb2Y3dHkyV1ZvOUpOZ3A5NU9TYWp6ZHRDdF9n?oc=5",
-      "source": "Nation Thailand",
-      "published": "2026-11-26T12:31:00Z",
       "category": "safety"
     },
     {
@@ -483,20 +643,20 @@
       "category": "safety"
     },
     {
-      "id": "1b04deb58ff4",
-      "title": "Nine hurt in huge explosion at Bangkok oil facility",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMWZOZEQ5eHgyVU1tNHVBbzd4NFNpcHdhcExSOVdYMVZaMmRQeWY3bDNXTWdyQnJrQXl4Um5jejFmZHA4dTh3T3NRczQ4dlBBLW5STTh0ZWVGLW1xa0FzOEVoMVk4ZjRzSnpQT3F1aVBIaWVaekxyOTV6Y2E5Ylo0RG1lWDJwX212SUwyd1ZSendTMGs?oc=5",
-      "source": "The Japan Times",
-      "published": "2026-11-26T11:53:00Z",
-      "category": "safety"
-    },
-    {
       "id": "6469236d37b7",
       "title": "At least 9 injured in blast at Bangkok refinery, residents briefly evacuated",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOWh5YjZQUDMyQlYtc0g0N3hhM2xjRGJFbTBycTllRlk2MGR1ZUc5VGJBODdSamo3UTc5dUhOQXdQd296TTZrQ1VNaGRjVUxPQmZKREl4R1BJZjUtbEp1dGk0Zkdqb1hrZ3l5M2VTLXJ0d2xCYWtFT1g4SzM1Rk1IUWpOZE5MMTlpbE9sa3RqNnVfME1LbnlLZGhSTkVTMGxMeWZXUGRBRFNhRGcxV1ZIc3hR0gG3AUFVX3lxTFBhQ2Ewel9vVzBiWTZDbjM5dGdwNnFZRno3b29WNmVFQWpsQ3ZJeFNqd2Ezdk9QSTBPVV9UdUpWdGozMXRLOUIwXzlkZTNvR243bVVPOG5nenQ0M2JHa2FmeU5ZNTh2MzRwMndoLXBJUDFEV0JiNEJCTWcxWkcwWTJ5M21CUnJjQjN0Mm0xZmdFRG00RGczUDY2ZldKcHRMZmlvcVhlX2xYUjhMaFVVNlJ3RXRQdGlhSQ?oc=5",
       "source": "India Today",
       "published": "2026-11-26T11:42:42Z",
       "category": "safety"
+    },
+    {
+      "id": "4455478b56c8",
+      "title": "ABS Marine Services Receives Charter Hire Award From ONGC For Vessel 'Emerald' For Three Years",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQNk90eHZyVXd1cVJGaGdRdWtZVFdySTliNEU5R3BCUXJQaldxUEdyY0hoQVJxcmRJbGljc0ZRanlySEpMWkUtUUNOZGRteWtQa3hFaFZhWmdUYjkwMFJVTEllSWpOeVZqcDZ4V2UyS1RwVXRycFFnR0dlNlV5clZqTWlXZ1pYeW5LT2NhRU44OTg5VVlzVm5Sa0NzVkFuWS1VWnhiSWpVeTlBVnl0TVpibFAyVENkZkhtTW9PUUJ3eGJkOExqX0NybG1JUWtEV1lUMVlyVEdudERKdUZrMmZ1amFmbUhCbnpUbGV2MWh1NlhwZzZn?oc=5",
+      "source": "TradingView",
+      "published": "2026-11-26T10:35:22Z",
+      "category": "india"
     },
     {
       "id": "05f7cebf58c8",
@@ -563,12 +723,28 @@
       "category": "safety"
     },
     {
-      "id": "5033e3fe50df",
-      "title": "Fire at Bangchak oil refinery prompts urgent evacuation in Bangkok",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9wSGtDdks4OEhKYkJ1VmFjWjZCQkdpNzBMMkVZTURkVmxrRWdLZU51T3I4bXNTZm9GV094aWx1cktHV0hla2lucTZnSWRtQXQzaDQ5X0NfWXNhNlBsYldaUU5B?oc=5",
-      "source": "Nation Thailand",
-      "published": "2026-11-26T08:26:00Z",
+      "id": "f3eabc5ada74",
+      "title": "Huge explosion at oil depot in Bangkok sends fireball into sky",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdHI4TUVod05tcl96RExlZVdaUEd2V3RicmNaZ1d4UWZRQkdjUnYxc1BIdTFXMUZKQXY2SGo4aTlvemFiZHJjVVM2TWNPOGQ3RW4zRDVuRTE0TW8yTW9uNkF5RGlxdU5BXzRjWGtRQkdnNWpKa0Z5T3ZkUnhkQlQ5bkhmNmpkUnFsNHg3dF9PLWQ0am41dEhSekI5VkhpbU50Yi05NzVxaERDNHVjQ0FlZkRR?oc=5",
+      "source": "France 24",
+      "published": "2026-11-26T08:27:20Z",
       "category": "safety"
+    },
+    {
+      "id": "660b2077f27b",
+      "title": "India Sees Qatar LNG Supply Cut After Iran Strike - Energy News, Top Headlines, Commentaries, Features & Events",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQWtlUEpScEI3aXZTVk9wdVBPUDFKQ24ybU55X0R3WlVYR01kUTY0LVhUMjh5ZF9PUlpxbGZ0QUE0ZG9ieGlNbHNqQmxEclMxTzAwQ0FQRXJZbmdFSXNBaTlmVEVIcUJ6U1FQUlBzTUExVGlYaThsUTctLVlwaGxvNm9la3EtXzA?oc=5",
+      "source": "EnergyNow.com",
+      "published": "2026-11-25T22:53:53Z",
+      "category": "india"
+    },
+    {
+      "id": "f90aacb2214f",
+      "title": "ONGC, Oil India step up capex; HPCL, IOCL lag FY27 spending targets",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPejVzZHFMaWk1U0NPQ2U2bVF6LWtGRjJieVcwdEN5SXJLX1R2U3VJYjFscFlRcFVyZ1FNQmUxUXlNeEs0Q1czN1MzQ0NMWmtaRW1MQ3VKdXltTVU4bXZMal8wZjZHVGdBT19LWld4TDMtWXFvRjF3dFhtY0IzU0t5bXpUNGZ6aU9LMW8wTDlnVklKcm4wV0JMOUZMdFpVVHNtSkk2RjBhRTJ4Q2c3cGxRY0I3T3g1Z2NaMm1KZkJqeHpoTFRpNGJRanZqWHk0amRw0gHWAUFVX3lxTE9lVk9WcEV5c0RWYVpRVUY1TkR3bGhUQlhIdHIxWU1tX19TYlBxdVhhRU1NSDY4allTT20xbzdVRXJtWi0yNUJqYnU2QmE3RGdSQnRFUERxek1OV2o4UHhsS0JpQndHVFJYcG1MSWRTVWoxTlRQZnBEUFJRcmwtbDNDVVZTSl9CbVhGeG1Yc2hiT3JpcmNxU0ZfTFBGWlFtdTJHbGdJM0xXMk9nYXR5NkVEdnY1LVZNemFHZmJCa0lNektZdmNpTXlIRVU5VWdCdGVBelJ0eGc?oc=5",
+      "source": "ET EnergyWorld",
+      "published": "2026-11-25T06:17:42Z",
+      "category": "india"
     },
     {
       "id": "adc959a964ab",
@@ -579,11 +755,35 @@
       "category": "safety"
     },
     {
+      "id": "2b8eeba15b06",
+      "title": "BPCL Share Price Today - Bharat Petroleum on NSE/BSE",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9TR3VDams0a2pSMEV3djBQZHFNOGpnRG9CYklEU0NtLTUtNDFNV1daTDA4V0owWUNUdjRZbXlLSUJvVUp3WlMxbVY1NWZMbGJXc2cwcnB2UzNSaWMw?oc=5",
+      "source": "scanx.trade",
+      "published": "2026-11-24T23:18:01Z",
+      "category": "india"
+    },
+    {
+      "id": "565c0a2ed004",
+      "title": "India's oil, gas import bill jumps to $16 billion in October",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5lQ2o3MjNYYV95ZEFxZG9EdU5SN2t4YkxUVm9oN3pFc2xUSFdaTlkwd1U1Um8wck44cEpvU2ltd1h6TkxTaHZ1SVQ5bXJYQUdsLUY2cTNzWjZ3d0p2eUxpY1FaRFplNFRMM0ZPYVNnNlhfZWp6SERv?oc=5",
+      "source": "Daijiworld",
+      "published": "2026-11-22T10:42:22Z",
+      "category": "ppac"
+    },
+    {
       "id": "5a877bf9db4c",
       "title": "India's oil and gas import bill rises 60 pc to USD 16 billion in October",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMXoxV1hCLW1DbElkNXVSWV9WTnFfM21hRHgyS0RZQll3anZESmlSdzkzTzM5Z0FiSFpkYy1NZ2Zod3BhSzZ6Q0o2NVR0OTJOdV84MEx1RFZpUmItSkMtTG9VTEdmamFfc2Zmc3F0RTR0ellhaEwtY05hQUNkUHhERGk0RmZXbjJLcVU2b3d2OGxHQ3RSRmZpTWFTVnF0U09WMGNySy1KVlY5WmZfQWxFMGtHaHBaSVJBSWJDbkpB0gHDAUFVX3lxTE9ZVHl5eVJBTTRUQ3RzM1RTLThCbzVweHJKazYwbHp2Uzd2bkMxRk1YaGFid2lUejdIVkRpLU1qY3N2UXRWYkx1VGt0NmhWdThvMDNtM2wwSnBNZXZpa0VyX0JaMFdnMXVCSDl6dURKaFFYR0pBbnduZ28zWjRYVUtWWk1BWmlNZVJMcDRFbEF5NE4wSldwNTliWmkzeWFuOWdGWUFzbG1OVG9YSWJiYkd3MXNXT2o1SUhfMDIwQlF1djRYTQ?oc=5",
       "source": "Vartha Bharati",
       "published": "2026-11-22T06:05:55Z",
+      "category": "ppac"
+    },
+    {
+      "id": "37ec84fa26a9",
+      "title": "India's Oil, Gas Import Bill Jumps 60 Pc In Oct As Brent Nearly Doubles; Cooking-Gas Usage Falls",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQlhsN0N2MnJFMG5lS2FxRUc5MGNHMGczTGNTZDBrdk5jMk9ldGd5d2dTU3VCbmtzcG5qMFY4cVZLZGRDZzdQRVVocnV2NmRGZG1ISXNfcUtXSmJoWC03eTIwMDVhNGsxUXQwckZoT1dsMXVqMGpBb1JjVFpvWE1VU2RCcHV0eC1JX05LVWMzUTBmcWVoMkZtdm8yRWtLVzZqd3JaSGlaeDBOZ0dqdU1QOEFKb1R2SkhKQmJZS2tGVFgwVlY0ejNjS0ZBZTk0QzluWWNCTS1NY05kLTDSAeABQVVfeXFMT2RxamZTTWVrU2o3VXo5N0ZqdDB3aGJSSUJPZHVLSGd1ZzZiOVFKTGhEdk1KM2NVU1RHdlJ0bXlCSW95bDUtandVQWNYUkh6aUNyU085WkdqNFdxdWFGUUEtNklzX29DeHB3X2ZSa0ttY2ZqR184WTU4ZkJuQlptUXR4Q04yQTNiVGFSUUljQm9RQkdTZFNYRVVnaE9HV3BBSTJhcG5wTkN1TmhZUnpBcVY5ZTFNM2VnUnlXUU8zSFJvNG51UWhxSXEtVU5mRjluejhjTHdHV0JwRnM2MFpscC0?oc=5",
+      "source": "ETV Bharat",
+      "published": "2026-11-22T06:05:47Z",
       "category": "ppac"
     },
     {
@@ -595,11 +795,11 @@
       "category": "ppac"
     },
     {
-      "id": "37e78be499a5",
-      "title": "India's oil, gas import bill jumps 60% in October as Brent nearly doubles; cooking-gas usage falls",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQUjdUc2QwUElPVXN1QldIUTJVbnZxMEc2MnVacHZXaVYtR3dmQ0ZfQ0xYaW9rMzlPTmZoODlwZjd6b0JsSjFlVWpWbVltMHBjVzRjNmhlakt2LUNyTFRqY25WTk0wcWk1bTU1UllobllzNXUySHJvOHRzRk1OcWE3SHpFWmNoWl9OYlFqZlB2d3VIZXQ3S3FkakNXeGVoZS1Xcy1Gb19xOU1MRFF2SHBvb3Y0V0N1YXA4bVlMeTdaTjctNk1IZVNPXzVkZ3ZrLUIyWGRaQy1VQ3hmWlJaeGhyWWttemw4bjJTN0dxZi1mdEFPTVlPRlFUNWQ5YmNzOEFC0gGGAkFVX3lxTE10cDhGb2lkWXR0NS1zZWNzYi1XLUpuWURnNUp4UUxzQUtUXzFBc2VtVHhydzh3Z19oYkVHYXRmY3p4NVJYY3R4X0VDUlc1SnVSRTY0a0FGTDJkckctdjlNOE5pcHh5TGxvQ2xDa1BQbnNScDhmM0tBX3NEMVpUellxSnROUm1KV1FhU2R4OWtGSjd0TDNuWXZwWi13c3c5OXNYTmRBOUx1QUw3RG5LRXN2NWZkN2JKLUZZQm5OSWJ3b1kzekt1MGI0VW5ieFVhUmhYeDlWclk1aU9MVG1qYnNwcWM3d3IxWmlqVWtCVXpQQlFJM3Y4N1ZKRG95QTA5UnJ0Wm5YRVE?oc=5",
-      "source": "The Economic Times",
-      "published": "2026-11-22T05:54:20Z",
+      "id": "95e58115b46b",
+      "title": "India’s net oil and gas import bill surges 60% to $16 billion in October",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMXBENmdrd1RySkpsVnQweVUzOW0weEF0QjgzRjdSdDZQUGVQN2dMRTZBbWw3LVZCYUpPU3Jza0o5RjFoTHhHdnRzdXJHTFc3NTFJYWpYYzJVV2pMT3B5VG1ENUVPZ0JsQVMzMUdpSDZIVGY1ZW1YRlpYdUU3ZXJVeW5pMEdndE5KTmhlTGpzNlF5V2JyQmo1amtTdXcyemZ4dkVhRXRvTENBSDNWWDNnMk40UWJhWU9sUGhiWDQySDh1WTY4Y2E5NFFSTTBsYnNJdVVrVHJUUdIB3AFBVV95cUxNeDRiRXpPTjhoXzBaYkl1VDlFd0tLZ29NOEpEQkw0RDFkaFdMU3l5bXdfeVJaQm1UWGJwam5kNWdPeTRTbVBmdWs3V3ZxMnBCSWw4aFRsSi1TeW11a1dRWG41OEwzRU1yWmM2SDdsZXhGRUZublpqWW83MDJtQTZ0VDhQQmRWN2lRNTVTcWx2bGUxaEQwdDNxVVZhby1ORWg4b2czZG1zcGhZYnBrMy1ZUDdWd1kzdDJnNFV6VmlHSlFBYzlRZWNYbVJ4dGtJUWo3TnN5eGs3MS0tR1Jj?oc=5",
+      "source": "ET EnergyWorld",
+      "published": "2026-11-22T06:00:55Z",
       "category": "ppac"
     },
     {
@@ -611,12 +811,12 @@
       "category": "ppac"
     },
     {
-      "id": "7338f6679c7f",
-      "title": "All 893 E20 petrol samples tested across 27 states, UTs meet prescribed ethanol standards: BPCL",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPb09VT180QUQxZDlCdVNqU2xReWVMX255bWxTcVlMa2dnWktNaDhScHZSeHlOU2FRbjB6SzNLSDYtcDdISjB3TXBDUVFLSlNVMkhzMkREVzNNdGQ1ZW5SeFFsa3RueloyR1A0MHBQZmEzRWJHdjZxNWZ2TC1xdmUtSk1BcWNqQWc4Z0dnZm9LYU1QVS0zcW1GX2NId05lMjVWTUJacnFwWWZ0cENfbVZEZDBVcjFrbGM5UWpndV9RVWNXUHJSRXhGYlJsLW9XcFd3Yi1CSDlFZldDbXVv?oc=5",
-      "source": "ANI News",
-      "published": "2026-11-13T08:00:00Z",
-      "category": "cht"
+      "id": "e3353dfc1c14",
+      "title": "India's petroleum consumption rises 2.7% to 20.5 million tonnes in October 2026, with diesel demand up 12%",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPU05iWEQ0TDAwQkZXSU02d3NmcHFkbFJibkZqWnhiRWw5WWEwSFNpc1lOTWNFT09ZYkstYWtXTWdnYmtDblBvOXVqZWpEZ05tWnBfenRTb05xdHAzdWllWFk5aUVTeFU5TW9HVFZDakFvMjRmZ011V3JkQndQTWN5UXdmVTZQNU53amp2R1JPLVgybE55eHZ5MnFqLVo3WHY3ZS1hT3prNTZxY19aTVhHM3UxYlc0RHd3MEdvaFR2VzJmd2lDek0xZFNLUEdNeHVnZ2R1Ync4U05BZUFLVnVZNGZKdGE?oc=5",
+      "source": "Business Upturn",
+      "published": "2026-11-20T07:30:48Z",
+      "category": "ppac"
     },
     {
       "id": "f5306e352251",
@@ -822,6 +1022,5 @@
   "source": {
     "name": "Google News RSS + PPAC official notices",
     "note": "Headlines link to the original publisher. EnergyPulse does not copy article text."
-  },
-  "last_error": "india: HTTP Error 429: Too Many Requests"
+  }
 }
